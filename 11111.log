@@ -1,0 +1,1391 @@
+
+shell@almond:/ $ 
+shell@almond:/ $ [   52.173398] Function = Mdrv_CPU_T_sensor_Check_callback, Line = 1836, [Over Temperature Handling End] changing cpufreq to 1460000
+[   52.196216] Function = Mdrv_CPU_T_sensor_Check_callback, Line = 1838, [Over Temperature Handling End] changing cpufreq OK!!
+[   55.958898] nf_conntrack: automatic helper assignment is deprecated and it will be removed soon. Use the iptables CT target to attach helpers instead.
+[   58.032929] ==20170327==> hub_port_init 1 #0
+[   58.037360] Plug in USB Port1
+[   58.182906] usb 2-1: new high-speed USB device number 2 using Mstar-ehci-1
+[   58.395455] usb 2-1: New USB device found, idVendor=0930, idProduct=6544
+[   58.402280] usb 2-1: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+[   58.409926] usb 2-1: Product: TransMemory     
+[   58.414448] usb 2-1: Manufacturer: TOSHIBA 
+[   58.418804] usb 2-1: SerialNumber: C412F52D61FDC0C020023A42
+[   58.427450] usb-storage 2-1:1.0: USB Mass Storage device detected
+[   58.437186] scsi0 : usb-storage 2-1:1.0
+[   59.643984] scsi 0:0:0:0: Direct-Access     TOSHIBA  TransMemory      1.00 PQ: 0 ANSI: 4
+[   59.654563] sd 0:0:0:0: [sda] 30310400 512-byte logical blocks: (15.5 GB/14.4 GiB)
+[   59.662501] sd 0:0:0:0: [sda] Write Protect is off
+[   59.670088] sd 0:0:0:0: [sda] Write cache: disabled, read cache: enabled, doesn't support DPO or FUA
+[   59.681801] emmc_partition()
+[   59.685325] 0x0
+[   59.687165]  sda: sda1
+[   59.692522] sd 0:0:0:0: [sda] Attached SCSI removable disk
+[   59.862906] [4294726806][MAD_ALSA][001036]     6Wake up Playback Monitor 0
+[   60.483392] RTL871X: SetHwReg8188E(wlan0): [HW_VAR_MACID_WAKEUP] macid=0, org reg_0x48c=0x00000000
+[   60.547730] FAT-fs (sda1): Volume was not properly unmounted. Some data may be corrupt. Please run fsck.
+[   65.592103] init: Starting service 'cpudvfsscaling'...
+[   65.642468] [dvfs_boost] this client is not running
+[   65.647934] [dvfs_boost] this client is not running
+[   68.835019] RTL871X: rtw_android_priv_cmd: Android private cmd "RXFILTER-STOP" on wlan0
+[   68.853362] RTL871X: rtw_android_priv_cmd: Android private cmd "RXFILTER-ADD 2" on wlan0
+[   68.862029] RTL871X: rtw_android_priv_cmd: Android private cmd "RXFILTER-START" on wlan0
+[   68.986168] RTL871X: OnAction_back
+[   68.989590] RTL871X: OnAction_back, action=0
+[   68.993941] RTL871X: issue_action_ba_wait_ack, category=3, action=1, status=0
+[   69.002266] RTL871X: issue_addba_rsp_wait_ack(wlan0) ra=f4:83:cd:a9:d5:b6 tid=6, acked, 1/3 in 0 ms
+[   70.667872] init: Service 'cpudvfsscaling' (pid 2979) exited with status 0
+[   75.386472] [4294742326][MAD_ALSA][001036]     6Wake up Playback Monitor 0
+[   77.920602] binder: 3115:3123 refcount change on invalid ref 11
+[   77.978694] binder: 3115:3115 refcount change on invalid ref 11
+[   77.984829] binder: 3115:3115 refcount change on invalid ref 11
+[   77.990983] binder: transaction release 42281 bad handle 11
+[   80.553395] lowmemorykiller: Killing 'm.android.music' (2491), adj 1000,
+[   80.553395]    to free 21484kB on behalf of 'kswapd0' (523) because
+[   80.553395]    cache 121540kB is below limit 30000kB for oom_score_adj 882
+[   80.553395]    Free memory is 191148kB above reserved, free_cma=191352kB
+[   80.580414]    Total_free=26692kB, Totalreserve_pages=9148kB, MAPPED=94756kB
+[   88.320027] init: Starting service 'cpudvfsscaling'...
+[   88.376028] [dvfs_boost] this client is not running
+[   88.381126] [dvfs_boost] this client is not running
+[   88.544353] init: Service 'cpudvfsscaling' is being killed...
+[   88.550826] init: Service 'cpudvfsscaling' (pid 3182) killed by signal 9
+[   88.569085] init: Starting service 'cpudvfsscaling'...
+[   88.601153] [dvfs_boost] this client is not running
+[   88.606578] [dvfs_boost] this client is not running
+[   93.614223] init: Service 'cpudvfsscaling' (pid 3203) exited with status 0
+[   96.386831] [4294763326][MAD_ALSA][001036]     6Wake up Playback Monitor 0
+[   99.952000] usb 2-1: USB disconnect, device number 2
+[  100.062940] removable device removed! 
+[  100.153335] root hub reinitial [usbdis]
+[  100.469802] [4294767406][MAD_ALSA][001036]     6Wake up Playback Monitor 0
+[  142.483205] RTL871X: SetHwReg8188E(wlan0): [HW_VAR_MACID_WAKEUP] macid=0, org reg_0x48c=0x00000000
+[  180.483202] RTL871X: SetHwReg8188E(wlan0): [HW_VAR_MACID_WAKEUP] macid=0, org reg_0x48c=0x00000000
+[  206.483206] RTL871X: SetHwReg8188E(wlan0): [HW_VAR_MACID_WAKEUP] macid=0, org reg_0x48c=0x00000000
+[  222.483192] RTL871X: SetHwReg8188E(wlan0): [HW_VAR_MACID_WAKEUP] macid=0, org reg_0x48c=0x00000000
+[  238.483206] RTL871X: SetHwReg8188E(wlan0): [HW_VAR_MACID_WAKEUP] macid=0, org reg_0x48c=0x00000000
+[  254.483234] RTL871X: SetHwReg8188E(wlan0): [HW_VAR_MACID_WAKEUP] macid=0, org reg_0x48c=0x00000000
+[  270.483200] RTL871X: SetHwReg8188E(wlan0): [HW_VAR_MACID_WAKEUP] macid=0, org reg_0x48c=0x00000000
+[  286.483201] RTL871X: SetHwReg8188E(wlan0): [HW_VAR_MACID_WAKEUP] macid=0, org reg_0x48c=0x00000000
+[  302.483201] RTL871X: SetHwReg8188E(wlan0): [HW_VAR_MACID_WAKEUP] macid=0, org reg_0x48c=0x00000000
+[  328.483206] RTL871X: SetHwReg8188E(wlan0): [HW_VAR_MACID_WAKEUP] macid=0, org reg_0x48c=0x00000000
+[  344.483223] RTL871X: SetHwReg8188E(wlan0): [HW_VAR_MACID_WAKEUP] macid=0, org reg_0x48c=0x00000000
+[  360.483200] RTL871X: SetHwReg8188E(wlan0): [HW_VAR_MACID_WAKEUP] macid=0, org reg_0x48c=0x00000000
+[  494.483249] RTL871X: SetHwReg8188E(wlan0): [HW_VAR_MACID_WAKEUP] macid=0, org reg_0x48c=0x00000000
+[  526.483218] RTL871X: SetHwReg8188E(wlan0): [HW_VAR_MACID_WAKEUP] macid=0, org reg_0x48c=0x00000000
+[  542.483217] RTL871X: SetHwReg8188E(wlan0): [HW_VAR_MACID_WAKEUP] macid=0, org reg_0x48c=0x00000000
+[  558.483194] RTL871X: SetHwReg8188E(wlan0): [HW_VAR_MACID_WAKEUP] macid=0, org reg_0x48c=0x00000000
+
+shell@almond:/ $ 
+shell@almond:/ $ 
+shell@almond:/ $ 
+shell@almond:/ $ reboot
+[  563.169149] RTL871X: rtw_dev_shutdown
+[  563.173433] Restarting system with command ''.
+UART_115200
+
+AC_ON
+MIU0_DQS-OK
+BIST0-OK
+BIST1-OK
+#_NOTICE:  BL3-1: v1.1(debug):b20b631
+NOTICE:  BL3-1: Built : 22:18:14, Mar 14 2017
+INFO:    warmboot return address : 3d341c00
+INFO:    BL3-1: Initializing runtime services
+INFO:     [Booting] mstar_send_magic_ATF 136 
+INFO:    BL3-1: Initializing BL3-2
+[Ramlog] ramlog_init init success
+
+INFO:    BL3-1: Preparing for EL3 exit to normal world
+INFO:    BL3-1: Next image address = 0x20100950
+INFO:    BL3-1: Next image spsr = 0x1d3
+INFO:    BIN1_32bit mode Mar 14 2017 22:18:12
+INFO:    R1 0
+INFO:    R2 0
+INFO:    R3 0
+U
+Relocation Offset is: 01700000
+[AT][MB][start ub][797]
+
+U-Boot 2011.06 (Apr 19 2018 - 14:22:25) 
+
+Function = SYSOpen, Line = 1107, current resource pri_shm content is: 0
+Function = SYSOpen, Line = 1126, [SYS INFO] OPEN INSTANCE...
+create instance at 2B4F08E0 with private size 128 bytes at 2B4F0928
+
+[MIU INFO] miu opencreate instance at 2B4F09B0 with private size 80 bytes at 2B4F09F8
+create instance at 2B4F0A50 with private size 52 bytes at 2B4F0A98
+create instance at 2B4F0AD0 with private size 52 bytes at 2B4F0B18
+
+uboot held at [2B2DDF60~2C500000],size=012220A0
+DRAM:  197 MiB
+Now running in RAM - U-Boot at: 2BB00000
+
+eMMC: HS400 200MHz 
+eMMC 7.28 GB [E8FFF8h]
+In:    serial
+Out:   serial
+Err:   serial
+Net:   No ethernet found.
+ Set MAC default
+MAC:  0x0: 0x30: 0x1B: 0xBA:0x2: 0xDB
+
+[CPU INFO] cpu opencreate instance at 2B500F88 with private size 44 bytes at 2B500FD0
+CPUIoctl - MDrv_CMD_CPU_QueryClock
+[UTOPIA INFO] close moduleNames[tu]:  `xV4
+
+[AT][MBoot][Driver Init][934]
+
+Changelist:     24543697
+============= set bootargs ===============
+WDT is not Enable !!!setenv WDT_ENABLE 1 to enable it.
+Hit any key to stop autoboot:  0 
+AC on
+Check USB port[0]:
+[USB] usb_lowlevel_init++
+[USB] USB EHCI LIB VER: 2014.10.02
+[USB] Port 0 is Enabled
+[USB] TV_usb_init (UTMI Init) ++
+[USB] UTMI Base 1F207500
+[USB] UHC Base 1F204800
+[USB] USBC Base 1F200E00
+[USB] BC Base 1F246C00
+[USB] config miu select [30] [74] [EF] ][EF]
+[USB] enable miu lower bound address subtraction
+[USB] init squelch level 0x2
+[USB] TV_usb_init--
+[USB] Usb_host_Init++
+[USB] No USB is connecting
+[USB] USB init failed
+[USB] usb_lowlevel_init--
+Error, couldn't init Lowlevel part
+Check USB port[1]:
+[USB] usb_lowlevel_init++
+[USB] USB EHCI LIB VER: 2014.10.02
+[USB] Port 1 is Enabled
+[USB] TV_usb_init (UTMI Init) ++
+[USB] UTMI Base 1F207400
+[USB] UHC Base 1F201A00
+[USB] USBC Base 1F200F00
+[USB] BC Base 1F246C40
+[USB] config miu select [30] [74] [EF] ][EF]
+[USB] enable miu lower bound address subtraction
+[USB] init squelch level 0x2
+[USB] TV_usb_init--
+[USB] Usb_host_Init++
+[USB] Async base addr: 0xC4E3100 
+[USB] Reg 0x28: 0x3100 0xC4E
+[USB] disable run
+[USB] Host Speed:2 
+[USB] enable aynch 
+[USB] Usb_host_Init--
+[USB] usb_lowlevel_init--
+scanning bus for devices... [USB] control1 max:40
+
+[USB] interface[0] conf:1 value FF: 
+1 USB Device(s) found
+[USB] no_of_ep: 3
+[USB] find bulk ep: 0
+[USB] find bulk ep2: 1
+
+[USB] bulk max packet size: ep(in) 0x200, ep2(out) 0x200
+[USB] bulk0 is in
+[USB] search USB LAN driver for (VID: 0xBDA, PID: 0x179)...Not found
+       scanning bus for storage devices... 0 Storage Device(s) found
+Check USB port[2]:
+[USB] usb_lowlevel_init++
+[USB] USB EHCI LIB VER: 2014.10.02
+[USB] Port 2 is Enabled
+[USB] TV_usb_init (UTMI Init) ++
+[USB] UTMI Base 1F207200
+[USB] UHC Base 1F227200
+[USB] USBC Base 1F227000
+[USB] BC Base 1F246C80
+[USB] config miu select [30] [74] [EF] ][EF]
+[USB] enable miu lower bound address subtraction
+[USB] init squelch level 0x2
+[USB] TV_usb_init--
+[USB] Usb_host_Init++
+[USB] Async base addr: 0xC4E3100 
+[USB] Reg 0x28: 0x3100 0xC4E
+[USB] disable run
+[USB] Host Speed:0 
+[USB] enable aynch 
+[USB] Usb_host_Init--
+[USB] usb_lowlevel_init--
+scanning bus for devices... [USB] control1 max:40
+
+[USB] interface[0] conf:1 value 3: 
+[USB] Stop to parse HID calss devices!!
+Error, bad or unsupported device...
+FAIL : can not init usb!! 
+fore uup u8KeyPad_KeyVal [0xFF]
+WDT is not Enable !!!setenv WDT_ENABLE 1 to enable it.
+AC on
+[[utopia]]      create Audio SHM data ...[[utopia]]      Audio TEE Info SHM is created...In HAL_AUDIO_SetDspBaseAddr, line(5226), u8Index(0x0), u32Bin_Base_Address(0x0), u32Mad_Base_Buffer_Adr(0x19E40000)
+[[utopia]]      0 DSPBinBaseAddress = 0x0
+[[utopia]]      0 DSPMadBaseBufferAdr = 0x0
+[[utopia]]      0 DSPMadMIUBank = 0
+In HAL_AUDIO_SetDspBaseAddr, line(5226), u8Index(0x1), u32Bin_Base_Address(0x0), u32Mad_Base_Buffer_Adr(0x19E40000)
+[[utopia]]      1 DSPBinBaseAddress = 0x0
+[[utopia]]      1 DSPMadBaseBufferAdr = 0x0
+[[utopia]]      1 DSPMadMIUBank = 0
+In HAL_AUDIO_SetDspBaseAddr, line(5226), u8Index(0x2), u32Bin_Base_Address(0x0), u32Mad_Base_Buffer_Adr(0x19000000)
+[[utopia]]      2 DSPBinBaseAddress = 0x0
+[[utopia]]      2 DSPMadBaseBufferAdr = 0x19000000
+[[utopia]]      2 DSPMadMIUBank = 0
+      HAL_MAD2_SetMemInfo : SE_DSP_DDR_ADDR = 0x195C0000, DEC_R2_ADDR = 0x19000000
+       ======> Audio DEC_R2 Base : 19000000
+[======= initialize DEC-R2[0] SHM =======]
+[======= initialize DEC-R2[1] SHM =======]
+[AT][MB][audio_preinit][4023]shed!v_AUDIO_DecoderLoadCode() 
+[ERROR] do_frc_bringup:806: get E_MMAP_ID_FRC_R2 mmap fail
+create instance at 2B501390 with private size 356 bytes at 2B5013D8
+
+MsDrv_PNL_Init:Bypass SetDivison 
+MDrv_PNL_Init u32PnlRiuBaseAddr = 1F200000
+MDrv_PNL_Init u32PMRiuBaseAddr = 1F000000
+MDrv_PNL_Init g_ptr_XCExtendRiuBaseAddr = 1FA00000
+[_MDrv_PNL_Init_LPLL][396]pstPanelInitData->u16Width=1366, pstPanelInitData->u16Height=768
+[_MDrv_PNL_Init_LPLL][398]u16HTotal=1560,u16VTotal=820,pstPanelInitData->u16HTotal=1560,pstPanelInitData->u16VTotal=820, u16DefaultVFreq=600
+[_MDrv_PNL_Init_Output_Dclk][448]pstPanelInitData->u16Width=1366, pstPanelInitData->u16Height=768
+[_MDrv_PNL_Init_Output_Dclk][450]u16HTotal=1560,u16VTotal=820,pstPanelInitData->u16HTotal=1560,pstPanelInitData->u16VTotal=820, u16DefaultVFreq=600
+[MApi_XC_MLG_GetStatus, 2543]No instance existed, please get an instance by calling MApi_XC_Init() first
+Init PWM0[AT][MB][panel_pre_init][4146]
+
+[AT][MB][bootlogo begin][4149]
+create instance at 2B501540 with private size 312 bytes at 2B501588
+[AT][MB][JPD Decode][4264]
+
+[UTOPIA INFO] close moduleNames[tu]: +` `xV4
+
+[showLogo] GOP Boot Logo Index 2 
+create instance at 2B501540 with private size 1720 bytes at 2B501588
+
+[GOP INFO] gop opencreate instance at 2B501C48 with private size 9596 bytes at 2B501C90
+[_GOP_RegisterAllCBFunc][5606] fpSetFBFmt is NULL.(If on STR state, this is a normal message) 
+[_GOP_RegisterAllCBFunc][5658] fpEventNotify is NULL.(If on STR state, this is a normal message) 
+[_GOP_RegisterAllCBFunc][5672] fpXCSetDwinInfo is NULL.(If on STR state, this is a normal message) 
+[AT][MB][Show Logo][4327]
+Unknown command 'readKL' - try 'help'
+
+---MsDrv_PNL_BackLigth_On:1083 Set MsDrv_PNL_BackLigth_On DelayTask 213 
+*****Amplifier_Init****
+MApi_SWI2C_ReadBytes FAIL!!
+[[utopia]]      
+ ==========Audio DSP Version Check==================[[utopia]]      
+          DSP System:0x880D62     
+[AT][MB][Play Melody][4635]
+Unknown command 'bootKL' - try 'help'
+## Booting kernel from Legacy Image at 24D00000 ...
+   Image Name:   MStar-linux
+   Image Type:   ARM Linux Multi-File Image (uncompressed)
+   Data Size:    14842513 Bytes = 14.2 MiB
+   Load Address: 20280000
+   Entry Point:  20280000
+   Contents:
+      Image 0: 12109480 Bytes = 11.5 MiB
+      Image 1: 2733021 Bytes = 2.6 MiB
+## Loading init Ramdisk from multi component Legacy Image at 24D00000 ...
+ramdisk start = 0x2588C6F4, ramdisk end = 0x25B27AD1
+-usb_stop(USB_PORT0)
+-usb_stop(USB_PORT1)
+-usb_stop(USB_PORT2)
+   Loading Multi-File Image ... OK
+[AT][MB][start kr][4814]
+
+Starting kernel ...
+
+set 64 bit mode 
+armfw_real_va_addr : 5EBE3000 
+optee_real_va_addr : 5EE00000 
+ [Ian] ARM_FW_Enter_64 258  ARMv8 NS-Uboot for 64bit kernel
+ [Ian] ARM_FW_Enter_64 259 2588C6F4 29B3DD 20200100
+INFO:    CPU0 Preparing for EL3 exit to normal world
+INFO:    CPU0 Next image address = 0x20280000
+INFO:    CPU0 Next image spsr = 0x3c9
+INFO:     [Ian] mstar_primary_kernel_enter 128 2b2ddddc 20200100 2588c6f4 29b3dd
+[    0.000000] Initializing cgroup subsys cpu
+[    0.000000] Initializing cgroup subsys cpuacct
+[    0.000000] Linux version 3.10.86 (lzh@ubuntu) (gcc version 4.9.2 20140904 (prerelease) (crosstool-NG MStar-1.13.1-4.9-2015.04 - MStar GCC 4.9-2015.04) ) #18 SMP PREEMPT Sat May 12 11:27:15 CST 2018
+[    0.000000] --- MStar Version ---
+[    0.000000] KERCODE:KERNEL
+[    0.000000] KERVER:3.1526095635
+[    0.000000] BUILDHASH:
+[    0.000000] BUILDDATE:2018051211
+[    0.000000] ---------------------
+[    0.000000] CPU: AArch64 Processor [410fd034] revision 4
+[    0.000000] __fdt_pointer = 0x23000000
+[    0.000000] Looking for initrd properties... __ramdisk_start = 0x2588c6f4, __ramdisk_end = 0x25b27ad1
+[    0.000000] Function = early_init_dt_check_for_initrd, Line = 615, PHYS_OFFSET is 0x20200000, PAGE_OFFSET is 0xFFFFFFC000000000
+[    0.000000] initrd_start = 0xffffffc00568c6f4, initrd_end = 0xffffffc005927ad1
+[    0.000000] Function = early_init_dt_check_for_initrd, Line = 629, no "linux,initrd-start" setting @dts
+[    0.000000] !!!!!!!!!!!!!!!!!!!!!! coredump_path is:/data/core_dump.%%p.gz
+[    0.000000] SDIO_CONFIG_NUM = 1
+[    0.000000] SAR5=ON
+[    0.000000] SAR5=ON
+[    0.000000] LX_MEM  = 0x20200000, 0x18D00000
+[    0.000000] LX_MEM2 = 0xA0400000, 0x1FC00000
+[    0.000000] LX_MEM3 = 0x0, 0x0
+[    0.000000] LX_MEM4 = 0x0, 0x0
+[    0.000000] EMAC_LEN= 0x100000
+[    0.000000] DRAM_LEN= 0x0
+[    0.000000] efi: Getting EFI parameters from FDT:
+[    0.000000] efi: UEFI not found.
+[    0.000000] Function = arm64_memblock_init, Line = 233, find cma_default buffer at only LX0
+[    0.000000] Function = dma_contiguous_reserve_area, Line = 794, cma: CMA: reserved 16 MiB at 37c00000
+[    0.000000] Function = dma_contiguous_reserve, Line = 620, cma: reserving 32 MiB for mstar_driver(RETURN_ENUM0, pool_id is 26)
+[    0.000000] Function = dma_contiguous_reserve_area, Line = 794, cma: CMA: reserved 32 MiB at 26400000
+[    0.000000] Function = dma_contiguous_reserve, Line = 620, cma: reserving 112 MiB for mstar_driver(OTHERS, pool_id is 23)
+[    0.000000] Function = dma_contiguous_reserve_area, Line = 794, cma: CMA: reserved 112 MiB at 28400000
+[    0.000000] Function = dma_contiguous_reserve, Line = 620, cma: reserving 96 MiB for mstar_driver(VDEC_XC_STR_MBOOT, pool_id is 20)
+[    0.000000] Function = dma_contiguous_reserve_area, Line = 794, cma: CMA: reserved 96 MiB at 2f400000
+[    0.000000] Function = dma_contiguous_reserve, Line = 620, cma: reserving 20 MiB for mstar_driver(RETURN_ENUM2, pool_id is 27)
+[    0.000000] Function = dma_contiguous_reserve_area, Line = 794, cma: CMA: reserved 20 MiB at a0400000
+[    0.000000] Function = dma_contiguous_reserve, Line = 620, cma: reserving 108 MiB for mstar_driver(VDEC_XC1, pool_id is 19)
+[    0.000000] Function = dma_contiguous_reserve_area, Line = 794, cma: CMA: reserved 108 MiB at a1800000
+[    0.000000] Function = dma_contiguous_reserve, Line = 620, cma: reserving 48 MiB for mstar_driver(XC_COBUFFER, pool_id is 24)
+[    0.000000] Function = dma_contiguous_reserve_area, Line = 794, cma: CMA: reserved 48 MiB at a8400000
+[    0.000000]  [CPU_OPS] cpu_read_ops 77
+[    0.000000]  [CPU_OPS] cpu_read_ops 94 0
+[    0.000000]  [CPU_PSCI] _ms_psci_ops_set 380
+[    0.000000]  [CPU_OPS] cpu_read_ops 77
+[    0.000000]  [CPU_OPS] cpu_read_ops 94 0
+[    0.000000]  [CPU_PSCI] _ms_psci_ops_set 380
+[    0.000000]  [CPU_OPS] cpu_read_ops 77
+[    0.000000]  [CPU_OPS] cpu_read_ops 94 0
+[    0.000000]  [CPU_PSCI] _ms_psci_ops_set 380
+[    0.000000]  [CPU_OPS] cpu_read_ops 77
+[    0.000000]  [CPU_OPS] cpu_read_ops 94 0
+[    0.000000]  [CPU_PSCI] _ms_psci_ops_set 380
+[    0.000000] PERCPU: Embedded 12 pages/cpu @ffffffc03899c000 s17280 r8192 d23680 u49152
+[    0.000000] Built 1 zonelists in Zone order, mobility grouping on.  Total pages: 228512
+[    0.000000] Kernel command line: console=ttyS0,115200 androidboot.console=ttyS0 root=/dev/ram rw rootwait init=/init CORE_DUMP_PATH=/data/core_dump.%%p.gz KDebug=1 delaylogo=true androidboot.selinux=permissive SDIO_CONFIG=1 str_ignore_wakelock LX_MEM=0x18D00000 LX_MEM2=0xA0400000,0x1FC00000 EMAC_MEM=0x100000 PM51_ADDR=0x20010000 PM51_LEN=0x10000 tee_mode=optee SAR5=ON CMA0=RETURN_ENUM0,miu=0,hid=26,sz=0x2000000,st=0x6400000 CMA1=OTHERS,miu=0,hid=23,sz=0x7000000,st=0x8400000 CMA2=VDEC_XC_STR_MBOOT,miu=0,hid=20,sz=0x6000000,st=0xf400000 CMA3=RETURN_ENUM2,miu=1,hid=27,sz=0x1400000,st=0x400000 CMA4=VDEC_XC1,miu=1,hid=19,sz=0x6c00000,st=0x1800000 CMA5=XC_COBUFFER,miu=1,hid=24,sz=0x3000000,st=0x8400000 platform=sn BOOTLOGO_IN_MBOOT ENV_VAR_OFFSET=0x0 ENV_VAR_SIZE=0x10000 ENV=EMMC SECURITY=OFF BOOTTIME_SBOOT=797 BOOTTIME_UBOOT=4814EMMC SECURITY=OFF BOOTTIME_SBOOT=797 BOOTTIME_UBOOT=4814
+[    0.000000] PID hash table entries: 4096 (order: 3, 32768 bytes)
+[    0.000000] Dentry cache hash table entries: 131072 (order: 8, 1048576 bytes)
+[    0.000000] Inode-cache hash table entries: 65536 (order: 7, 524288 bytes)
+[    0.000000] Memory: 397MB 508MB = 905MB total
+[    0.000000] Memory: 438260k/438260k available, 488460k reserved
+[    0.000000] Virtual kernel memory layout:
+[    0.000000]     vmalloc : 0xffffff8000000000 - 0xffffffbbffff0000   (245759 MB)
+[    0.000000]     vmemmap : 0xffffffbc00707000 - 0xffffffbc037fffc8   (    48 MB)
+[    0.000000]     modules : 0xffffffbffc000000 - 0xffffffc000000000   (    64 MB)
+[    0.000000]     memory  : 0xffffffc000000000 - 0xffffffc038a00000   (   906 MB)
+[    0.000000]       .init : 0xffffffc000ac5000 - 0xffffffc000b4b380   (   537 kB)
+[    0.000000]       .text : 0xffffffc000080000 - 0xffffffc000ac4e94   ( 10516 kB)
+[    0.000000]       .data : 0xffffffc000b4c000 - 0xffffffc000c0c6a8   (   770 kB)
+[    0.000000] SLUB: HWalign=64, Order=0-3, MinObjects=0, CPUs=4, Nodes=1
+[    0.000000] Function = mm_init, Line = 617, mstar_xc_ext_base is 0xFFFFFF8000D00000
+[    0.000000] Preemptible hierarchical RCU implementation.
+[    0.000000] NR_IRQS:384
+[    0.000000] Function = clocksource_of_init, doing arm,armv8-timer
+[    0.000000] Function = arch_timer_init, arch_timer_rate is 12000000
+[    0.000000] sched_clock: 56 bits at 12MHz, resolution 83ns, wraps every 2863311536128ns
+[    0.000000] Architected cp15 timer(s) running at 12.00MHz (phys).
+[    0.000000] [AT][KR][reset timer][4942]
+[    0.000000] Console: colour dummy device 80x25
+[    0.000000] console [ttyS0] enabled
+[    0.000000] Function = start_kernel, ready to count printk time
+[    0.599038] Calibrating delay loop (skipped), value calculated using timer frequency.. 24.00 BogoMIPS (lpj=120000)
+[    0.609410] pid_max: default: 32768 minimum: 301
+[    0.614070] thread_info_cache_init, alloc 1536 thread_pool
+[    0.621216] Security Framework initialized
+[    0.625362] Mount-cache hash table entries: 256
+[    0.630534] Initializing cgroup subsys debug
+[    0.634810] Initializing cgroup subsys freezer
+[    0.639437] /cpus/cpu@0: Unknown CPU type
+[    0.643466] /cpus/cpu@1: Unknown CPU type
+[    0.647483] /cpus/cpu@2: Unknown CPU type
+[    0.651499] /cpus/cpu@3: Unknown CPU type
+[    0.655524] hw perfevents: enabled with arm/armv8-pmuv3 PMU driver, 7 counters available
+[    0.663638] EFI services will not be available.
+[    0.728473] CPU1: Booted secondary processor
+[    0.748481] CPU2: Booted secondary processor
+[    0.768482] CPU3: Booted secondary processor
+[    0.768791] Brought up 4 CPUs
+[    0.784605] SMP: Total of 4 processors activated (96.00 BogoMIPS).
+[    0.791447] devtmpfs: initialized
+[    0.813846] Cluster:0 CpuMask:f
+[    0.817395] NET: Registered protocol family 16
+[    0.823793] vdso: 2 pages (1 code, 1 data) at base ffffffc000b51000
+[    0.830098] hw-breakpoint: found 6 breakpoint and 4 watchpoint registers.
+[    0.839087] software IO TLB [mem 0xbbc00000-0xbc000000] (4MB) mapped at [ffffffc034600000-ffffffc0349fffff]
+[    0.850287] DMA: preallocated 256 KiB pool for atomic allocations
+[    0.886178] bio: create slab <bio-0> at 0
+[    0.891119] SCSI subsystem initialized
+[    0.895284] usbcore: registered new interface driver usbfs
+[    0.900887] usbcore: registered new interface driver hub
+[    0.906313] usbcore: registered new device driver usb
+[    0.911611] Linux video capture interface: v2.00
+[    0.916688] Function = mstar_ion_init, Line = 655, default_heap: 1, mstar_driver heap: 6
+[    0.925691] Function = mstar_ion_probe, Line = 517, doing mstar_ion_probe for ion-mstar, having 7 heaps
+[    0.936031] Function = ion_mstar_cma_heap_create, dev = RETURN_ENUM0, cma = ffffffc000c795d0, cma from 0x26400 to 0x28400
+[    0.947732] Function = mstar_ion_probe, Line = 593, cma_measurement_data name is RETURN_ENUM0, id is 26
+[    0.957836] Function = ion_mstar_cma_heap_create, dev = OTHERS, cma = ffffffc000c79618, cma from 0x28400 to 0x2F400
+[    0.969004] Function = mstar_ion_probe, Line = 593, cma_measurement_data name is OTHERS, id is 23
+[    0.978577] Function = mstar_ion_probe, Line = 544, STR_MBOOT co-buffer heap is 20
+[    0.986856] Function = ion_mstar_cma_heap_create, dev = VDEC_XC_STR_MBOOT, cma = ffffffc000c79660, cma from 0x2F400 to 0x35400
+[    0.998979] Function = mstar_ion_probe, Line = 593, cma_measurement_data name is VDEC_XC_STR_MBOOT, id is 20
+[    1.009517] Function = ion_mstar_cma_heap_create, dev = RETURN_ENUM2, cma = ffffffc000c796a8, cma from 0xA0400 to 0xA1800
+[    1.021206] Function = mstar_ion_probe, Line = 593, cma_measurement_data name is RETURN_ENUM2, id is 27
+[    1.031310] Function = ion_mstar_cma_heap_create, dev = VDEC_XC1, cma = ffffffc000c796f0, cma from 0xA1800 to 0xA8400
+[    1.042655] Function = mstar_ion_probe, Line = 593, cma_measurement_data name is VDEC_XC1, id is 19
+[    1.052404] Function = ion_mstar_cma_heap_create, dev = XC_COBUFFER, cma = ffffffc000c79738, cma from 0xA8400 to 0xAB400
+[    1.064013] Function = mstar_ion_probe, Line = 593, cma_measurement_data name is XC_COBUFFER, id is 24
+[    1.074233] eMMC: no SD 1006
+[    1.157446] Advanced Linux Sound Architecture Driver Initialized.
+[    1.167761] Switching to clocksource arch_sys_counter
+[    1.191789] NET: Registered protocol family 2
+[    1.196800] TCP established hash table entries: 8192 (order: 5, 131072 bytes)
+[    1.204094] TCP bind hash table entries: 8192 (order: 5, 131072 bytes)
+[    1.210771] TCP: Hash tables configured (established 8192 bind 8192)
+[    1.217223] TCP: reno registered
+[    1.220482] UDP hash table entries: 512 (order: 2, 16384 bytes)
+[    1.226465] UDP-Lite hash table entries: 512 (order: 2, 16384 bytes)
+[    1.233172] NET: Registered protocol family 1
+[    1.237563] mmc0: BKOPS_EN bit is not set
+[    1.241826] RPC: Registered named UNIX socket transport module.
+[    1.247781] RPC: Registered udp transport module.
+[    1.252507] RPC: Registered tcp transport module.
+[    1.257250] RPC: Registered tcp NFSv4.1 backchannel transport module.
+[    1.263870] Trying to unpack rootfs image as initramfs...
+[    1.270818] 
+[    1.270818] eMMC: HS400 200MHz 
+[    1.276201] mmc0: new MMC card at address 0001
+[    1.400214] Freeing initrd memory: 2664K (ffffffc00568d000 - ffffffc005927000)
+[    1.408413]  Function = Mstar_chip_post_init Line = 308, [SAM-CC] alloRAM0_VA_BASE: 0xffffff8000a06000, alloLXRAM0_PA_BASE: 0x20200000
+[    1.421766]  Function = Mstar_chip_post_init Line = 316, [SAM-CC] alloRAM1_VA_BASE: 0xffffff8000a4e000, alloLXRAM1_PA_BASE: 0xa0400000
+[    1.435110]  Function = Mstar_chip_post_init Line = 321, [SAM-CC] Cannot find miu2 address. alloLXRAM2_PA_BASE: 0x20200000
+[    1.447895]  Function = Mstar_chip_post_init Line = 342 uncached_buf : 0xffffff8000a52000
+[    1.458072] audit: initializing netlink socket (disabled)
+[    1.463528] type=2000 audit(1.109:1): initialized
+[    1.468847] CMA_threshold proc initialized
+ total_CMA_size = 304 MB
+[    1.475231] 
+[    1.475231]  lowmem_minfree[5] = 0 pages
+[    1.480636] 
+[    1.480636]  Init CMA_threshold_1 = 150000 KB, CMA_threshold_2 = 311296 KB
+[    1.498639] squashfs: version 4.0 (2009/01/31) Phillip Lougher
+[    1.505476] Installing knfsd (copyright (C) 1996 okir@monad.swb.de).
+[    1.512317] NTFS driver 2.1.30 [Flags: R/O].
+[    1.516904] ROMFS MTD (C) 2007 Red Hat, Inc.
+[    1.521314] fuse init (API version 7.22)
+[    1.525919] msgmni has been set to 1725
+[    1.530834] io scheduler noop registered (default)
+[    1.536068] Serial: 8250/16550 driver, 6 ports, IRQ sharing disabled
+[    1.542561] serial8250: ttyS0 at I/O 0xffffff8000201300 (irq = 192) is a 16550
+[    1.549989] serial8250: ttyS1 at I/O 0xffffff8000220c00 (irq = 231) is a 16550
+[    1.557400] serial8250: ttyS2 at I/O 0xffffff8000220d00 (irq = 242) is a 16550
+[    1.565708] [drm] Initialized drm 1.1.0 20060810
+[    1.576377] brd: module loaded
+[    1.582556] loop: module loaded
+[    1.586970] nbd: registered device at major 43
+[    1.596714] zram: Created 1 device(s) ...
+[    1.601561] mtdoops: mtd device (mtddev=name/number) must be supplied
+[    1.608165] tun: Universal TUN/TAP device driver, 1.6
+[    1.613229] tun: (C) 1999-2004 Max Krasnyansky <maxk@qualcomm.com>
+[    1.619563] PPP generic driver version 2.4.2
+[    1.624088] PPP BSD Compression module registered
+[    1.628796] PPP Deflate Compression module registered
+[    1.633868] PPP MPPE Compression module registered
+[    1.638664] NET: Registered protocol family 24
+[    1.643141] ehci_hcd: USB 2.0 'Enhanced' Host Controller (EHCI) Driver
+[    1.649672] Mstar_ehc_init version:20170327
+[    1.653903] Mstar-ehci-2 H.W init
+[    1.657220] Titania3_series_start_ehc start
+[    1.661406] [USB] config miu select [30] [74] [ef] ][ef]
+[    1.666730] [USB] enable miu lower bound address subtraction
+[    1.672393] [USB] init squelch level 0x2
+[    1.677333] [USB] no platform_data, device tree coming
+[    1.682476] [USB][EHC] dma coherent_mask 0xffffffff mask 0xffffffff
+[    1.688761] BC disable 
+[    1.691212] [USB] Mstar-ehci-2.11 irq --> 226
+[    1.695583] Mstar-ehci-2 Mstar-ehci-2.11: EHCI Host Controller
+[    1.701431] Mstar-ehci-2 Mstar-ehci-2.11: new USB bus registered, assigned bus number 1
+[    1.709891] Mstar-ehci-2 Mstar-ehci-2.11: irq 226, io mem 0xffffff8000201a00
+[    1.732905] usb usb1: New USB device found, idVendor=1d6b, idProduct=0002
+[    1.739700] usb usb1: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+[    1.746938] usb usb1: Product: EHCI Host Controller
+[    1.751821] usb usb1: Manufacturer: Linux 3.10.86 ehci_hcd
+[    1.757319] usb usb1: SerialNumber: mstar
+[    1.761765] hub 1-0:1.0: USB hub found
+[    1.765538] hub 1-0:1.0: 1 port detected
+[    1.769705] Mstar-ehci-1 H.W init
+[    1.773033] Titania3_series_start_ehc start
+[    1.777220] [USB] config miu select [30] [74] [ef] ][ef]
+[    1.782535] [USB] enable miu lower bound address subtraction
+[    1.788205] [USB] init squelch level 0x2
+[    1.793138] [USB] no platform_data, device tree coming
+[    1.798281] [USB][EHC] dma coherent_mask 0xffffffff mask 0xffffffff
+[    1.804565] BC disable 
+[    1.807015] [USB] Mstar-ehci-1.10 irq --> 199
+[    1.811377] Mstar-ehci-1 Mstar-ehci-1.10: EHCI Host Controller
+[    1.817233] Mstar-ehci-1 Mstar-ehci-1.10: new USB bus registered, assigned bus number 2
+[    1.825520] Mstar-ehci-1 Mstar-ehci-1.10: irq 199, io mem 0xffffff8000204800
+[    1.842907] usb usb2: New USB device found, idVendor=1d6b, idProduct=0002
+[    1.849703] usb usb2: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+[    1.856941] usb usb2: Product: EHCI Host Controller
+[    1.861824] usb usb2: Manufacturer: Linux 3.10.86 ehci_hcd
+[    1.867350] usb usb2: SerialNumber: mstar
+[    1.871769] hub 2-0:1.0: USB hub found
+[    1.875540] hub 2-0:1.0: 1 port detected
+[    1.879705] Mstar-ehci-3 H.W init
+[    1.883032] Titania3_series_start_ehc start
+[    1.887219] [USB] config miu select [30] [74] [ef] ][ef]
+[    1.892534] [USB] enable miu lower bound address subtraction
+[    1.898204] [USB] init squelch level 0x2
+[    1.903138] [USB] no platform_data, device tree coming
+[    1.908281] [USB][EHC] dma coherent_mask 0xffffffff mask 0xffffffff
+[    1.914565] BC disable 
+[    1.917015] [USB] Mstar-ehci-3.12 irq --> 229
+[    1.921377] Mstar-ehci-3 Mstar-ehci-3.12: EHCI Host Controller
+[    1.927230] Mstar-ehci-3 Mstar-ehci-3.12: new USB bus registered, assigned bus number 3
+[    1.935542] Mstar-ehci-3 Mstar-ehci-3.12: irq 229, io mem 0xffffff8000227200
+[    1.952893] usb usb3: New USB device found, idVendor=1d6b, idProduct=0002
+[    1.959689] usb usb3: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+[    1.966944] usb usb3: Product: EHCI Host Controller
+[    1.966978] ==20170327==> hub_port_init 1 #0
+[    1.966979] Plug in USB Port2
+[    1.979090] usb usb3: Manufacturer: Linux 3.10.86 ehci_hcd
+[    1.984590] usb usb3: SerialNumber: mstar
+[    1.989036] hub 3-0:1.0: USB hub found
+[    1.992798] hub 3-0:1.0: 1 port detected
+[    1.997096] usbcore: registered new interface driver usb-storage
+[    2.003427] mousedev: PS/2 mouse device common for all mice
+[    2.009484] rtc-mstar rtc.9: rtc core: registered rtc-mstar as rtc0
+[    2.015971] IR NEC protocol handler initialized
+[    2.020505] IR RC5(x) protocol handler initialized
+[    2.025308] IR RC6 protocol handler initialized
+[    2.029842] IR JVC protocol handler initialized
+[    2.034382] IR Sony protocol handler initialized
+[    2.039002] IR RC5 (streamzap) protocol handler initialized
+[    2.044584] IR SANYO protocol handler initialized
+[    2.049291] IR MCE Keyboard/mouse protocol handler initialized
+[    2.055257] usbcore: registered new interface driver uvcvideo
+[    2.061006] USB Video Class driver (1.1.1)
+[    2.065540] device-mapper: uevent: version 1.0.3
+[    2.070467] device-mapper: ioctl: 4.24.0-ioctl (2013-01-15) initialised: dm-devel@redhat.com
+[    2.079110] mmcblk0: mmc0:0001 008G70 7.28 GiB 
+[    2.083787] mmcblk0boot0: mmc0:0001 008G70 partition 1 4.00 MiB
+[    2.089842] mmcblk0boot1: mmc0:0001 008G70 partition 2 4.00 MiB
+[    2.095942] mmcblk0rpmb: mmc0:0001 008G70 partition 3 4.00 MiB
+[    2.102107] emmc_partition()
+[    2.105872]  [emmc]Start_block=4096, block_count=6144
+[    2.110946] Start_block=10240, block_count=4096
+[    2.112872] usb 1-1: new high-speed USB device number 2 using Mstar-ehci-2
+[    2.122365] Start_block=14336, block_count=1024
+[    2.126912] Start_block=15360, block_count=51200
+[    2.131534] Start_block=66560, block_count=40960
+[    2.136164] Start_block=107520, block_count=12288
+[    2.140873] Start_block=119808, block_count=128
+[    2.146226] Start_block=119936, block_count=512
+[    2.150762] Start_block=120448, block_count=2048
+[    2.155392] Start_block=122496, block_count=4194304
+[    2.160274] Start_block=4316800, block_count=8388608
+[    2.165250] Start_block=12705408, block_count=2097152
+[    2.170307] Start_block=14802560, block_count=327680
+[    2.175283] Start_block=15130240, block_count=22528
+[    2.180165] Start_block=15152768, block_count=16384
+[    2.185861] Start_block=15169152, block_count=32768
+[    2.190743] 
+[    2.192236]  mmcblk0: p1 p2 p3 p4 p5 p6 p7 p8 p9 p10 p11 p12 p13 p14 p15 p16emmc_partition()
+[    2.204834] 0x0
+[    2.206631]  mmcblk0boot1: unknown partition table
+[    2.211844] emmc_partition()
+[    2.215723] 0x5eaa
+[    2.217777]  mmcblk0boot0: unknown partition table
+[    2.223080] hidraw: raw HID events driver (C) Jiri Kosina
+[    2.228708] usbcore: registered new interface driver usbhid
+[    2.234294] usbhid: USB HID core driver
+[    2.238457] ashmem: initialized
+[    2.242316] Mstar_emac: [ PHY Addr ] ==> :0
+[    2.246755] Mstar_emac: alloRAM_VA_BASE = 0xffffff8000f80000 alloRAM_PA_BASE= 0x38f00000  alloRAM_SIZE= 0x100000
+[    2.260197] RBQP_BASE = 38f04000
+[    2.264117] ##### Mstar IR Cdev Init #####
+[    2.268578] input: MStar Smart TV IR Receiver as /devices/ir.3/input/input0
+[    2.275777] [IR Log] NEC Spec Protocol Init
+[    2.279964] [IR Log] RC5 Spec protocol init
+[    2.284420] mstar sdio host running...
+[    2.288180] SDIO-CD(1) 0x102Bh[04h]#2
+[    2.291846] SDIO-PC(0) 0x0000h[00h]#3697
+[    2.295781] SDIO-WP(0) 0x0000h[00h]#3697
+[    2.323495] usb 1-1: New USB device found, idVendor=0bda, idProduct=0179
+[    2.330209] usb 1-1: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+[    2.337432] usb 1-1: Product: 802.11n NIC
+[    2.339852] [mod_pwm_init][198] mod_pwm_init is invoked
+[    2.339857] Init PWM0
+[    2.339862] [4294669276][MAD_ALSA][002017]     6Linux Kernel Version : 3.10.86
+[    2.339864] [4294669276][MAD_ALSA][002019]     6ALSA Kernel Version : XX.XX.XX
+[    2.339867] [4294669276][MAD_ALSA][002023]     6MStar ALSA Driver Version : 3.1.25
+[    2.339870] [4294669276][MAD_ALSA][002024]     6Initiate MStar ALSA driver engine
+[    2.339873] [4294669276][MAD_ALSA][001906]     6Go to register MStar ALSA driver 0
+[    2.339902] [4294669276][MAD_ALSA][001906]     6Go to register MStar ALSA driver 1
+[    2.340032] [4294669276][MAD_ALSA][003345]     6Initiate MStar ALSA core driver
+[    2.340038] [4294669276][MAD_ALSA][000311]     6MStar Core Version : 3.1.51
+[    2.340040] [4294669276][MAD_ALSA][000313]     6MStar Card number : 0
+[    2.341357] [4294669276][MAD_ALSA][000364]     6MStar ALSA driver is registered to slot 0
+[    2.341821] Function = CPU_calibrating_init, Line = 2014, [cpu 3] do CPU_calibrating_init
+[    2.343878] Function = cpufreq_add_dev, Line = 923, adding CPU 0
+[    2.343883] Function = cpufreq_add_dev, Line = 976, do cpufreq_driver->init
+[    2.446669] usb 1-1: Manufacturer: Realtek
+[    2.447138] Function = integrator_cpufreq_init, Line = 452, cluster = 0, policy->cpu = 0, cluster_m: 0, max_freq: 1460000, min_freq: 1100000
+[    2.447142] Function = integrator_cpufreq_init, Line = 458, set cpu0 ac_str_cpufreq: 216000 KHz
+[    2.473511] usb 1-1: SerialNumber: A09DC1567B09
+[    2.473524] Create T sensor on cpu:0, set str freq to 216000khz
+[    2.485371] ==20170327==> hub_port_init 1 #0
+[    2.485374] Plug in USB Port3
+[    2.492753] Function = __cpufreq_set_policy, Line = 1836, re-assign governor
+[    2.500520] Function = __cpufreq_governor, Line = 1653, do policy->governor: interactive
+[    2.509345] Function = __cpufreq_governor, Line = 1653, do policy->governor: interactive
+[    2.518149] Function = __cpufreq_governor, Line = 1653, do policy->governor: interactive
+[    2.526968] Function = cpufreq_add_dev, Line = 923, adding CPU 1
+[    2.533692] Function = cpufreq_add_dev, Line = 976, do cpufreq_driver->init
+[    2.541878] Function = integrator_cpufreq_init, Line = 452, cluster = 0, policy->cpu = 1, cluster_m: 0, max_freq: 1460000, min_freq: 1100000
+[    2.555906] Function = __cpufreq_set_policy, Line = 1836, re-assign governor
+[    2.563669] Function = __cpufreq_governor, Line = 1653, do policy->governor: interactive
+[    2.572459] Function = __cpufreq_governor, Line = 1653, do policy->governor: interactive
+[    2.581272] Function = __cpufreq_governor, Line = 1653, do policy->governor: interactive
+[    2.590073] Function = cpufreq_add_dev, Line = 923, adding CPU 2
+[    2.596802] Function = cpufreq_add_dev, Line = 976, do cpufreq_driver->init
+[    2.604993] Function = integrator_cpufreq_init, Line = 452, cluster = 0, policy->cpu = 2, cluster_m: 0, max_freq: 1460000, min_freq: 1100000
+[    2.619003] Function = __cpufreq_set_policy, Line = 1836, re-assign governor
+[    2.626761] Function = __cpufreq_governor, Line = 1653, do policy->governor: interactive
+[    2.635575] usb 3-1: new full-speed USB device number 2 using Mstar-ehci-3
+[    2.642517] Function = __cpufreq_governor, Line = 1653, do policy->governor: interactive
+[    2.651321] Function = __cpufreq_governor, Line = 1653, do policy->governor: interactive
+[    2.660120] Function = cpufreq_add_dev, Line = 923, adding CPU 3
+[    2.666840] Function = cpufreq_add_dev, Line = 976, do cpufreq_driver->init
+[    2.675032] Function = integrator_cpufreq_init, Line = 452, cluster = 0, policy->cpu = 3, cluster_m: 0, max_freq: 1460000, min_freq: 1100000
+[    2.689042] Function = __cpufreq_set_policy, Line = 1836, re-assign governor
+[    2.696798] Function = __cpufreq_governor, Line = 1653, do policy->governor: interactive
+[    2.705598] Function = __cpufreq_governor, Line = 1653, do policy->governor: interactive
+[    2.714399] Function = __cpufreq_governor, Line = 1653, do policy->governor: interactive
+[    2.723642] Function = init_glob_miu_kranges, Line = 3752, Insert KProtect for LX @ MIU: 0
+[    2.732608] Function = init_glob_miu_kranges, Line = 3761, [INIT] for LX0 kprotect: from 0x20200000 to 0x38F00000, using block 0
+[    2.744902] Function = init_glob_miu_kranges, Line = 3774, Insert KProtect for LX2 @ MIU: 1
+[    2.753967] Function = init_glob_miu_kranges, Line = 3785, [INIT] for LX2 kprotect: from 0xA0400000 to 0xC0000000, using block 0
+[    2.768569] usbcore: registered new interface driver snd-usb-audio
+[    2.775198] oprofile: using timer interrupt.
+[    2.779574] u32 classifier
+[    2.782283]     Actions configured
+[    2.785706] Netfilter messages via NETLINK v0.30.
+[    2.790454] nf_conntrack version 0.5.0 (6900 buckets, 27600 max)
+[    2.796974] ctnetlink v0.93: registering with nfnetlink.
+[    2.802343] NF_TPROXY: Transparent proxy support initialized, version 4.1.0
+[    2.809326] NF_TPROXY: Copyright (c) 2006-2007 BalaBit IT Ltd.
+[    2.815589] xt_time: kernel timezone is -0000
+[    2.820137] ip_tables: (C) 2000-2006 Netfilter Core Team
+[    2.825625] arp_tables: (C) 2002 David S. Miller
+[    2.830280] TCP: cubic registered
+[    2.833610] Initializing XFRM netlink socket
+[    2.838508] NET: Registered protocol family 10
+[    2.843651] mip6: Mobile IPv6
+[    2.846645] ip6_tables: (C) 2000-2006 Netfilter Core Team
+[    2.852185] sit: IPv6 over IPv4 tunneling driver
+[    2.856334] usb 3-1: New USB device found, idVendor=1d57, idProduct=fa20
+[    2.856339] usb 3-1: New USB device strings: Mfr=1, Product=2, SerialNumber=0
+[    2.856342] usb 3-1: Product: 2.4G Receiver
+[    2.856346] usb 3-1: Manufacturer: Compx
+[    2.879868] NET: Registered protocol family 17
+[    2.884399] NET: Registered protocol family 15
+[    2.888964] Bridge firewalling registered
+[    2.889337] input: Compx 2.4G Receiver as /devices/Mstar-ehci-3.12/usb3/3-1/3-1:1.0/input/input1
+[    2.889767] hid-generic 0003:1D57:FA20.0001: input,hidraw0: USB HID v1.00 Keyboard [Compx 2.4G Receiver] on usb-mstar-1/input0
+[    2.891933] input: Compx 2.4G Receiver as /devices/Mstar-ehci-3.12/usb3/3-1/3-1:1.1/input/input2
+[    2.892354] hid-generic 0003:1D57:FA20.0002: input,hidraw1: USB HID v1.00 Mouse [Compx 2.4G Receiver] on usb-mstar-1/input1
+[    2.894684] input: Compx 2.4G Receiver as /devices/Mstar-ehci-3.12/usb3/3-1/3-1:1.2/input/input3
+[    2.895085] hid-generic 0003:1D57:FA20.0003: input,hidraw2: USB HID v1.00 Device [Compx 2.4G Receiver] on usb-mstar-1/input2
+[    2.953124] 8021q: 802.1Q VLAN Support v1.8
+[    2.957968] Registering SWP/SWPB emulation handler
+[    2.963951] rtc-mstar rtc.9: setting system clock to 2007-01-01 12:00:00 UTC (1167652800)
+[    2.972164] ALSA device list:
+[    2.975155]   #0: MStar MPEG Audio Decoder No.00
+[    2.979964] [AT][KR][start init][7922]
+[    2.983730] [AutoTest][Kernel][start Initprocess][7922]
+[    2.988960] Function = kernel_init, Line = 1088, ramdisk_execute_command is /init
+[    2.998213] init: init started!
+[    3.002058] init: init second stage started!
+[    3.007191] init: property_set("ro.boot.selinux", "permissive") failed
+[    3.013843] init: waitpid failed: No child processes
+[    3.018970] init: (Loading properties from /default.prop took 0.00s.)
+[    3.027883] init: Starting service 'ueventd'...
+[    3.032789] init: Waiting for /dev/.coldboot_done...
+[    3.033474] ueventd: ueventd started!
+[    3.133867] ueventd: Coldboot took 0.10s.
+[    3.142316] init: Waiting for /dev/.coldboot_done took 0.11s.
+[    3.148151] init: /dev/hw_random not found
+[    3.154257] init: write_file: Unable to open '/proc/sys/kernel/hung_task_timeout_secs': No such file or directory
+[    3.165990] init: write_file: Unable to open '/proc/cpu/alignment': No such file or directory
+[    3.174712] init: write_file: Unable to open '/proc/sys/kernel/sched_compat_yield': No such file or directory
+[    3.185385] init: write_file: Unable to write to '/dev/cpuctl/cpu.shares': Invalid argument
+[    3.194684] init: write_file: Unable to open '/proc/sys/abi/swp': No such file or directory
+[    3.203853] init: /dev/hw_random not found
+[    3.208463] fs_mgr: Warning: unknown flag block_validity
+[    3.213807] fs_mgr: Warning: unknown flag nodiscard
+[    3.218698] fs_mgr: Warning: unknown flag data=ordered
+[    3.223867] fs_mgr: Warning: unknown flag journal_checksum
+[    3.229377] fs_mgr: Warning: unknown flag block_validity
+[    3.234728] fs_mgr: Warning: unknown flag nodiscard
+[    3.239619] fs_mgr: Warning: unknown flag data=ordered
+[    3.244800] fs_mgr: Warning: unknown flag journal_checksum
+[    3.250319] fs_mgr: Warning: unknown flag block_validity
+[    3.255655] fs_mgr: Warning: unknown flag nodiscard
+[    3.260545] fs_mgr: Warning: unknown flag data=ordered
+[    3.265711] fs_mgr: Warning: unknown flag journal_checksum
+[    3.271218] fs_mgr: Warning: unknown flag block_validity
+[    3.276545] fs_mgr: Warning: unknown flag nodiscard
+[    3.281436] fs_mgr: Warning: unknown flag data=ordered
+[    3.286600] fs_mgr: Warning: unknown flag journal_checksum
+[    3.295961] EXT4-fs (mmcblk0p10): mounted filesystem with ordered data mode. Opts: (null)
+[    3.304213] fs_mgr: __mount(source=/dev/block/platform/mstar_mci.0/by-name/system,target=/system,type=ext4)=0
+[    3.319838] EXT4-fs (mmcblk0p12): recovery complete
+[    3.325759] EXT4-fs (mmcblk0p12): mounted filesystem with ordered data mode. Opts: (null)
+[    3.334007] fs_mgr: __mount(source=/dev/block/platform/mstar_mci.0/by-name/cache,target=/cache,type=ext4)=0
+[    3.469775] EXT4-fs (mmcblk0p11): recovery complete
+[    3.475700] EXT4-fs (mmcblk0p11): mounted filesystem with ordered data mode. Opts: (null)
+[    3.483940] fs_mgr: __mount(source=/dev/block/platform/mstar_mci.0/by-name/userdata,target=/data,type=ext4)=0
+[    3.497291] EXT4-fs (mmcblk0p13): mounted filesystem with ordered data mode. Opts: (null)
+[    3.505531] fs_mgr: __mount(source=/dev/block/platform/mstar_mci.0/by-name/tvservice,target=/tvservice,type=ext4)=0
+[    3.519123] EXT4-fs (mmcblk0p14): mounted filesystem with ordered data mode. Opts: (null)
+[    3.527365] fs_mgr: __mount(source=/dev/block/platform/mstar_mci.0/by-name/tvconfig,target=/tvconfig,type=ext4)=0
+[    3.554914] EXT4-fs (mmcblk0p15): recovery complete
+[    3.560818] EXT4-fs (mmcblk0p15): mounted filesystem with ordered data mode. Opts: (null)
+[    3.569108] fs_mgr: __mount(source=/dev/block/platform/mstar_mci.0/by-name/tvdatabase,target=/tvdatabase,type=ext4)=0
+[    3.585243] EXT4-fs (mmcblk0p16): recovery complete
+[    3.591144] EXT4-fs (mmcblk0p16): mounted filesystem with ordered data mode. Opts: (null)
+[    3.599385] fs_mgr: __mount(source=/dev/block/platform/mstar_mci.0/by-name/tvcustomer,target=/tvcustomer,type=ext4)=0
+[    3.611533] init: Starting service 'logd'...
+[    3.686588] :backlog=300
+[    3.689522] logd.auditd: start
+[    3.692621] logd.klogd: 3339760831
+[    3.763139] mali mali.0: Continuing without Mali clock control
+[    3.769117] hrtimer: interrupt took 10583 ns
+[    3.773465] mali mali.0: GPU identified as 0x0720 r1p1 status 0
+[    3.780190] mali mali.0: Probed as mali0
+[    3.824827] [MhalSwdr_Init][2253] 1010106
+[    3.845538] 
+[    3.845538] TEE Core Framework initialization (ver 1:0.1)
+[    3.858399] TEE armv7 Driver initialization
+[    3.863067] tz_tee_probe: name="armv7sec", id=0, pdev_name="armv7sec.0"
+[    3.869691] TEE core: Alloc the misc device "opteearmtz00" (id=0)
+[    3.876129] TEE Core: Register the misc device "opteearmtz00" (id=0,minor=52)
+[    3.884995] init: Starting service 'vold'...
+[    3.890566] init: Not bootcharting.
+[    3.902423] init: Failed to reload policy
+[    3.906658] init: Starting service 'exec 0 (/system/bin/tzdatacheck)'...
+[    3.923363] init: Service 'exec 0 (/system/bin/tzdatacheck)' (pid 1352) exited with status 0
+[    3.934864] init: (Loading properties from /system/build.prop took 0.00s.)
+[    3.941857] init: (Loading properties from /vendor/build.prop took 0.00s.)
+[    3.948867] init: (Loading properties from /factory/factory.prop took 0.00s.)
+[    3.956188] init: (Loading properties from /data/local.prop took 0.00s.)
+[    3.984944] fs_mgr: Warning: unknown flag block_validity
+[    3.990347] fs_mgr: Warning: unknown flag nodiscard
+[    3.995396] fs_mgr: Warning: unknown flag data=ordered
+[    4.000600] fs_mgr: Warning: unknown flag journal_checksum
+[    4.000942] fs_mgr: Warning: unknown flag block_validity
+[    4.000954] fs_mgr: Warning: unknown flag nodiscard
+[    4.000964] fs_mgr: Warning: unknown flag data=ordered
+[    4.000974] fs_mgr: Warning: unknown flag journal_checksum
+[    4.000992] fs_mgr: Warning: unknown flag block_validity
+[    4.001002] fs_mgr: Warning: unknown flag nodiscard
+[    4.001012] fs_mgr: Warning: unknown flag data=ordered
+[    4.001022] fs_mgr: Warning: unknown flag journal_checksum
+[    4.001052] fs_mgr: Warning: unknown flag block_validity
+[    4.001062] fs_mgr: Warning: unknown flag nodiscard
+[    4.001071] fs_mgr: Warning: unknown flag data=ordered
+[    4.001081] fs_mgr: Warning: unknown flag journal_checksum
+[    4.001099] fs_mgr: Warning: unknown flag block_validity
+[    4.001109] fs_mgr: Warning: unknown flag nodiscard
+[    4.001119] fs_mgr: Warning: unknown flag data=ordered
+[    4.001128] fs_mgr: Warning: unknown flag journal_checksum
+[    4.089528] fs_mgr: Warning: unknown flag block_validity
+[    4.094919] fs_mgr: Warning: unknown flag nodiscard
+[    4.099815] fs_mgr: Warning: unknown flag data=ordere
+[    4.099903] init: Starting service 'logd-reinit'...
+[    4.102228] init: Starting service 'healthd'...
+[    4.102534] init: Starting service 'lmkd'...
+[    4.102750] init: Starting service 'servicemanager'...
+[    4.103010] init: Starting service 'surfaceflinger'...
+[    4.103268] init: Starting service 'resourcemanager'...
+[    4.103373] binder: 1356:1356 transaction failed 29189, size 0-0
+[    4.104303] init: Starting service 'console'...
+[    4.104684] init: Starting service 'netd'...
+[    4.104921] init: Starting service 'debuggerd'...
+[    4.105116] init: Starting service 'debuggerd64'...
+[    4.105298] init: cannot find '/system/bin/rild', disabling 'ril-daemon'
+[    4.105341] init: Starting service 'drm'...
+[    4.105511] init: Starting service 'media'...
+[    4.105697] init: Starting service 'installd'...
+[    4.105877] init: Starting service 'flash_recovery'...
+[    4.106075] init: Starting service 'keystore'...
+[    4.113423] logd.daemon: reinit
+[    4.191296] fs_mgr: Warning: unknown flag journal_checksum
+[    4.196856] fs_mgr: Warning: unknown flag block_validity
+[    4.202195] fs_mgr: Warning: unknown flag nodiscard
+[    4.207113] fs_mgr: Warning: unknown flag data=ordered
+[    4.212291] fs_mgr: Warning: unknown flag journal_checksum
+[    4.217840] fs_mgr: Warning: unknown flag block_validity
+[    4.223197] fs_mgr: Warning: unknown flag nodiscard
+[    4.228097] fs_mgr: Warning: unknown flag data=ordered
+[    4.233272] fs_mgr: Warning: unknown flag journal_checksum
+[    4.251759] init: Starting service 'optee'...
+[    4.256532] init: Starting service 'tvservice'...
+[    4.261647] init: Starting service 'virtualkeypad'...
+[    4.271948] init: Starting service 'livecap'...
+[    4.277389] init: Starting service 'multicast'...
+[    4.283144] init: cannot find '/applications/secure_daemon', disabling 'tee'
+[    4.290917] init: Starting service 'tee_shmem'...
+[    4.296761] init: Starting service 'misys'...
+[    4.301814] init: Starting service 'cussysset'...
+[    4.306895] init: Starting service 'cc'...
+[    4.311360] init: Starting service 'ttx'...
+[    4.317161] init: Starting service 'bootvideo'...
+[    4.322252] init: Starting service 'zygote'...
+[    4.333926] init: Starting service 'zygote_secondary'...
+[    4.342447] init: Starting service 'gatekeeperd'...
+shell@almond:/ $ [    4.355108] init: Starting service 'perfprofd'...
+[    4.360924] init: Starting service 'intertaca'...
+[    4.367235] init: Service 'logd-reinit' (pid 1355) exited with status 0
+[    4.374105] init: Service 'flash_recovery' (pid 1368) exited with status 0
+[    4.381264] init: Service 'multicast' (pid 1381) exited with status 0
+[    4.387932] init: Service 'misys' (pid 1386) exited with status 255
+[    4.403086] init: Service 'cussysset' (pid 1389) exited with status 255
+[    4.423075] init: Service 'cc' (pid 1391) exited with status 255
+[    4.429261] init: Service 'ttx' (pid 1392) exited with status 255
+[    4.435799] init: Service 'bootvideo' (pid 1393) exited with status 255
+[    4.442560] init: Starting service 'adbd'...
+[    4.552134] input: MStar Smart TV Keypad as /devices/virtual/input/input4
+[    4.604764] init: Service 'intertaca' (pid 1428) exited with status 1
+[    5.103861] healthd: No charger supplies found
+[    5.108344] healthd: No battery devices found
+[    5.132507] init: Starting service 'bootanim'...
+[    5.489966] --------->MBX DRIVER OPEN
+[    5.493954] _MDrv_MBXIO_FASYNC is invoked
+[    5.986374]  [Mapi_Cfd_ColorFormatDriver_Control] Analog source
+[    6.852912] [ta log] [HDCP2X-TA] TA_CreateEntryPoint - TA instance created ((TA_CreateEntryPoint:18))
+[    6.873291] [ta log] [HDCP2X-TA] =======> Initial HDCP TA done, version: HDCP-12.14.20170206, date: Feb  6 2017 10:03:26, Query SIC: 1, Security IC: 1 ((TA_CreateEntryPoint:30))
+[    6.894071] [ta log] [HDCP2X-TA] s_enHdcpLogPriority: 6 ((HDCP_SET_LOG_PRIORITY:29))
+[    6.902682] [ta log] Call fopen() on TA, file name : /certificate/hdcp2_key.bin
+[    6.910647] ERR TEE-CORE:tee_fs_common_open:1324: tee file not exists[ta log] [HDCP2X-TA] fopen fail ((TEE_HDCP_SecureRead:1900))
+TVOS *checkPoint*
+[    7.562641] MCMA error CMA_Pool_Alloc:1742 invalid start address or length:  heap id 27, min_start 0xA0C00000 , max_end 0xA1600000, phy_addr 0xA1100000, length 0x500000  "tvos" 
+[    7.562641] 
+[    7.580276] MCMA error CMA_Pool_Alloc:1743 Alloc fail!!!
+[    7.585836] MCMA error CMA_Pool_Alloc:1744 case1: Notice buffer may be a co-buffer ,and may have already been allocated by others.Do not allocate a buffer simultaneously by different modules though they may co-buffer.
+[    7.605399] MCMA error CMA_Pool_Alloc:1745 case2: may have already been allocated ,but not free,or previous free fail by different tgid ,but here allocate again.
+[    7.619958] MCMA error CMA_Pool_Alloc:1746 Please refer to following log to get more info:
+[    7.628392] Function = CMA_Pool_ioctl, Line = 3078, CMA_Pool_Alloc Failed, the ret is -22
+[    7.640960] MCMA error CMA_Pool_Alloc:1742 invalid start address or length:  heap id 27, min_start 0xA0400000 , max_end 0xA1600000, phy_addr 0xA0400000, length 0x200000  "tvos" 
+[    7.640960] 
+[    7.659405] MCMA error CMA_Pool_Alloc:1743 Alloc fail!!!
+[    7.664837] MCMA error CMA_Pool_Alloc:1744 case1: Notice buffer may be a co-buffer ,and may have already been allocated by others.Do not allocate a buffer simultaneously by different modules though they may co-buffer.
+[    7.684230] MCMA error CMA_Pool_Alloc:1745 case2: may have already been allocated ,but not free,or previous free fail by different tgid ,but here allocate again.
+[    7.698752] MCMA error CMA_Pool_Alloc:1746 Please refer to following log to get more info:
+[    7.707206] Function = CMA_Pool_ioctl, Line = 3078, CMA_Pool_Alloc Failed, the ret is -22
+[    8.608615] warning: `main' uses 32-bit capabilities (legacy support in use)
+[   10.785730] healthd: battery none chg=
+[   10.999309] minfree[5]=7500 pages, final CMA_threshold_1 = 30000 KB, CMA_threshold_2 = 341296 KB
+[   11.300132] init: Starting service 'loadwifi'...
+[   11.340201] mtprealloc: module license 'unspecified' taints kernel.
+[   11.346670] Disabling lock debugging due to kernel taint
+[   11.352955] prealloc_alloc tx 14340 num 70
+[   11.357141] prealloc_alloc null pkt 3844
+[   11.361073] prealloc_alloc ps-poll 3844
+[   11.365043] prealloc_alloc rx 24576 num 8
+[   11.369070] prealloc_alloc cmd-resp 1024
+[   11.373196] ==>[0]:PreBuff:0xffffffc0335bc000, DmaAddr:0x00000000babbc000
+[   11.380055] ==>[1]:PreBuff:0xffffffc033584000, DmaAddr:0x00000000bab84000
+[   11.386891] ==>[2]:PreBuff:0xffffffc033588000, DmaAddr:0x00000000bab88000
+[   11.393859] ==>[3]:PreBuff:0xffffffc03358c000, DmaAddr:0x00000000bab8c000
+[   11.400704] ==>[4]:PreBuff:0xffffffc033570000, DmaAddr:0x00000000bab70000
+[   11.408135] ==>[5]:PreBuff:0xffffffc033574000, DmaAddr:0x00000000bab74000
+[   11.415159] ==>[6]:PreBuff:0xffffffc033578000, DmaAddr:0x00000000bab78000
+[   11.422289] ==>[7]:PreBuff:0xffffffc03357c000, DmaAddr:0x00000000bab7c000
+[   11.429270] ==>[8]:PreBuff:0xffffffc032f50000, DmaAddr:0x00000000ba550000
+[   11.436222] ==>[9]:PreBuff:0xffffffc032f54000, DmaAddr:0x00000000ba554000
+[   11.443357] ==>[10]:PreBuff:0xffffffc032f58000, DmaAddr:0x00000000ba558000
+[   11.450439] ==>[11]:PreBuff:0xffffffc032f5c000, DmaAddr:0x00000000ba55c000
+[   11.457412] ==>[12]:PreBuff:0xffffffc02a9a0000, DmaAddr:0x00000000b1fa0000
+[   11.464486] ==>[13]:PreBuff:0xffffffc02a9a4000, DmaAddr:0x00000000b1fa4000
+[   11.471753] ==>[14]:PreBuff:0xffffffc02a8f4000, DmaAddr:0x00000000b1ef4000
+[   11.478701] ==>[15]:PreBuff:0xffffffc02a9a8000, DmaAddr:0x00000000b1fa8000
+[   11.485628] ==>[16]:PreBuff:0xffffffc02a9ac000, DmaAddr:0x00000000b1fac000
+[   11.485631] ==>[17]:PreBuff:0xffffffc02a9b0000, DmaAddr:0x00000000b1fb0000
+[   11.485635] ==>[18]:PreBuff:0xffffffc02a9b4000, DmaAddr:0x00000000b1fb4000
+[   11.485636] ==>[19]:PreBuff:0xffffffc02a9b8000, DmaAddr:0x00000000b1fb8000
+[   11.485638] ==>[20]:PreBuff:0xffffffc02a9bc000, DmaAddr:0x00000000b1fbc000
+[   11.485640] ==>[21]:PreBuff:0xffffffc02a990000, DmaAddr:0x00000000b1f90000
+[   11.485642] ==>[22]:PreBuff:0xffffffc02a994000, DmaAddr:0x00000000b1f94000
+[   11.485643] ==>[23]:PreBuff:0xffffffc02a998000, DmaAddr:0x00000000b1f98000
+[   11.485645] ==>[24]:PreBuff:0xffffffc02a99c000, DmaAddr:0x00000000b1f9c000
+[   11.485647] ==>[25]:PreBuff:0xffffffc029b40000, DmaAddr:0x00000000b1140000
+[   11.485648] ==>[26]:PreBuff:0xffffffc029b44000, DmaAddr:0x00000000b1144000
+[   11.485651] ==>[27]:PreBuff:0xffffffc029b48000, DmaAddr:0x00000000b1148000
+[   11.485654] ==>[28]:PreBuff:0xffffffc029b4c000, DmaAddr:0x00000000b114c000
+[   11.485657] ==>[29]:PreBuff:0xffffffc029dc0000, DmaAddr:0x00000000b13c0000
+[   11.485658] ==>[30]:PreBuff:0xffffffc029dc4000, DmaAddr:0x00000000b13c4000
+[   11.485660] ==>[31]:PreBuff:0xffffffc029db8000, DmaAddr:0x00000000b13b8000
+[   11.485661] ==>[32]:PreBuff:0xffffffc029dbc000, DmaAddr:0x00000000b13bc000
+[   11.485663] ==>[33]:PreBuff:0xffffffc029d68000, DmaAddr:0x00000000b1368000
+[   11.485665] ==>[34]:PreBuff:0xffffffc029d6c000, DmaAddr:0x00000000b136c000
+[   11.485666] ==>[35]:PreBuff:0xffffffc029d38000, DmaAddr:0x00000000b1338000
+[   11.485668] ==>[36]:PreBuff:0xffffffc029d3c000, DmaAddr:0x00000000b133c000
+[   11.485671] ==>[37]:PreBuff:0xffffffc029ce8000, DmaAddr:0x00000000b12e8000
+[   11.485673] ==>[38]:PreBuff:0xffffffc029cec000, DmaAddr:0x00000000b12ec000
+[   11.485675] ==>[39]:PreBuff:0xffffffc029cd8000, DmaAddr:0x00000000b12d8000
+[   11.485676] ==>[40]:PreBuff:0xffffffc029cdc000, DmaAddr:0x00000000b12dc000
+[   11.485678] ==>[41]:PreBuff:0xffffffc029c98000, DmaAddr:0x00000000b1298000
+[   11.485680] ==>[42]:PreBuff:0xffffffc029c9c000, DmaAddr:0x00000000b129c000
+[   11.485681] ==>[43]:PreBuff:0xffffffc029c68000, DmaAddr:0x00000000b1268000
+[   11.485683] ==>[44]:PreBuff:0xffffffc029c6c000, DmaAddr:0x00000000b126c000
+[   11.485685] ==>[45]:PreBuff:0xffffffc029c38000, DmaAddr:0x00000000b1238000
+[   11.485687] ==>[46]:PreBuff:0xffffffc029c3c000, DmaAddr:0x00000000b123c000
+[   11.485688] ==>[47]:PreBuff:0xffffffc029c08000, DmaAddr:0x00000000b1208000
+[   11.485692] ==>[48]:PreBuff:0xffffffc029c0c000, DmaAddr:0x00000000b120c000
+[   11.485693] ==>[49]:PreBuff:0xffffffc029be8000, DmaAddr:0x00000000b11e8000
+[   11.485695] ==>[50]:PreBuff:0xffffffc029bec000, DmaAddr:0x00000000b11ec000
+[   11.485697] ==>[51]:PreBuff:0xffffffc029bd8000, DmaAddr:0x00000000b11d8000
+[   11.485699] ==>[52]:PreBuff:0xffffffc029bdc000, DmaAddr:0x00000000b11dc000
+[   11.485700] ==>[53]:PreBuff:0xffffffc029bc0000, DmaAddr:0x00000000b11c0000
+[   11.485702] ==>[54]:PreBuff:0xffffffc029bc4000, DmaAddr:0x00000000b11c4000
+[   11.485704] ==>[55]:PreBuff:0xffffffc029bb8000, DmaAddr:0x00000000b11b8000
+[   11.485705] ==>[56]:PreBuff:0xffffffc029bbc000, DmaAddr:0x00000000b11bc000
+[   11.485707] ==>[57]:PreBuff:0xffffffc029b90000, DmaAddr:0x00000000b1190000
+[   11.485709] ==>[58]:PreBuff:0xffffffc029b94000, DmaAddr:0x00000000b1194000
+[   11.485710] ==>[59]:PreBuff:0xffffffc029b88000, DmaAddr:0x00000000b1188000
+[   11.485712] ==>[60]:PreBuff:0xffffffc029b8c000, DmaAddr:0x00000000b118c000
+[   11.485714] ==>[61]:PreBuff:0xffffffc029b70000, DmaAddr:0x00000000b1170000
+[   11.485716] ==>[62]:PreBuff:0xffffffc029b74000, DmaAddr:0x00000000b1174000
+[   11.485718] ==>[63]:PreBuff:0xffffffc029b68000, DmaAddr:0x00000000b1168000
+[   11.485719] ==>[64]:PreBuff:0xffffffc029b6c000, DmaAddr:0x00000000b116c000
+[   11.485721] ==>[65]:PreBuff:0xffffffc029b20000, DmaAddr:0x00000000b1120000
+[   11.485723] ==>[66]:PreBuff:0xffffffc029b24000, DmaAddr:0x00000000b1124000
+[   11.485726] ==>[67]:PreBuff:0xffffffc029b18000, DmaAddr:0x00000000b1118000
+[   11.485727] ==>[68]:PreBuff:0xffffffc029b1c000, DmaAddr:0x00000000b111c000
+[   11.485729] ==>[69]:PreBuff:0xffffffc029ae0000, DmaAddr:0x00000000b10e0000
+[   11.485732] ==>[70]:PreBuff:0xffffffc0335c3000, DmaAddr:0x00000000babc3000
+[   11.485734] ==>[71]:PreBuff:0xffffffc0335c2000, DmaAddr:0x00000000babc2000
+[   11.485736] ==>[72]:PreBuff:0xffffffc029ac8000, DmaAddr:0x00000000b10c8000
+[   11.485737] ==>[73]:PreBuff:0xffffffc029a60000, DmaAddr:0x00000000b1060000
+[   11.485739] ==>[74]:PreBuff:0xffffffc029a68000, DmaAddr:0x00000000b1068000
+[   11.485741] ==>[75]:PreBuff:0xffffffc02b9a0000, DmaAddr:0x00000000b2fa0000
+[   11.485742] ==>[76]:PreBuff:0xffffffc02b9a8000, DmaAddr:0x00000000b2fa8000
+[   11.485744] ==>[77]:PreBuff:0xffffffc02b998000, DmaAddr:0x00000000b2f98000
+[   11.485746] ==>[78]:PreBuff:0xffffffc02b988000, DmaAddr:0x00000000b2f88000
+[   11.485747] ==>[79]:PreBuff:0xffffffc02b958000, DmaAddr:0x00000000b2f58000
+[   11.485749] ==>[80]:PreBuff:0xffffffc0335c1000, DmaAddr:0x00000000babc1000
+[   11.485750] prealloc_alloc ok
+[   11.502952] [4294678426][MAD_ALSA][000630]     6Open 'subdevice #0'(0) of MStar ALSA playback device
+[   11.503710] init: Service 'loadwifi' (pid 1920) exited with status 0
+[   11.505692] [4294678426][MAD_ALSA][000630]     6Open 'subdevice #0'(0) of MStar ALSA playback device
+[   11.507601] [4294678426][MAD_ALSA][001292]     6Open 'subdevice #0'(0) of MStar ALSA capture device
+[   11.514291] [4294678426][MAD_ALSA][001358]     6Close 'subdevice #0'(0) of MStar ALSA capture device
+[   11.516306] [4294678426][MAD_ALSA][002783]     6Exit MStar PCM Capture1 engine
+[   11.518522] [4294678426][MAD_ALSA][001292]     6Open 'subdevice #0'(0) of MStar ALSA capture device
+[   11.525243] [4294678426][MAD_ALSA][001358]     6Close 'subdevice #0'(0) of MStar ALSA capture device
+[   11.527258] [4294678426][MAD_ALSA][003097]     6Exit MStar PCM Capture2 engine
+[   11.529496] [4294678426][MAD_ALSA][001292]     6Open 'subdevice #0'(0) of MStar ALSA capture device
+[   11.536232] [4294678426][MAD_ALSA][001358]     6Close 'subdevice #0'(0) of MStar ALSA capture device
+[   11.538248] [4294678426][MAD_ALSA][003097]     6Exit MStar PCM Capture2 engine
+[   11.540483] [4294678426][MAD_ALSA][001292]     6Open 'subdevice #0'(0) of MStar ALSA capture device
+[   11.547170] [4294678426][MAD_ALSA][001358]     6Close 'subdevice #0'(0) of MStar ALSA capture device
+[   11.549184] [4294678426][MAD_ALSA][003097]     6Exit MStar PCM Capture2 engine
+[   11.551474] [4294678426][MAD_ALSA][001292]     6Open 'subdevice #0'(0) of MStar ALSA capture device
+[   11.558124] [4294678426][MAD_ALSA][001358]     6Close 'subdevice #0'(0) of MStar ALSA capture device
+[   11.560142] [4294678426][MAD_ALSA][002783]     6Exit MStar PCM Capture1 engine
+[   12.088973] init: Starting service 'loadwifi'...
+[   12.109001] rtw_mem_init
+[   12.111543] MAX_RTKM_NR_PREALLOC_RECV_SKB: 16
+[   12.118123] MAX_RTKM_RECVBUF_SZ: 15360
+[   12.121976] rtw_mem_init, rtk_skb_mem_q len : 16
+[   12.127841] init: Service 'loadwifi' (pid 1957) exited with status 0
+[   12.904291] IPv6: ADDRCONF(NETDEV_UP): eth0: link is not ready
+[   13.182127] init: Starting service 'loadwifi'...
+[   13.503268] cfg80211: Calling CRDA to update world regulatory domain
+[   13.554518] RTL871X: module init start
+[   13.558500] RTL871X: rtl8188eu v4.3.0.8_13968.20150417_rtkm_0515_20151106
+[   13.565758] RTL871X: build time: Dec  7 2016 17:43:33
+[   13.571177] RTL871X: 
+[   13.571177] usb_endpoint_descriptor(0):
+[   13.577622] RTL871X: bLength=7
+[   13.581094] RTL871X: bDescriptorType=5
+[   13.585144] RTL871X: bEndpointAddress=81
+[   13.589149] RTL871X: wMaxPacketSize=512
+[   13.593179] RTL871X: bInterval=0
+[   13.596553] RTL871X: RT_usb_endpoint_is_bulk_in = 1
+[   13.601537] RTL871X: 
+[   13.601537] usb_endpoint_descriptor(1):
+[   13.607828] RTL871X: bLength=7
+[   13.610968] RTL871X: bDescriptorType=5
+[   13.614832] RTL871X: bEndpointAddress=2
+[   13.618691] RTL871X: wMaxPacketSize=512
+[   13.622615] RTL871X: bInterval=0
+[   13.625940] RTL871X: RT_usb_endpoint_is_bulk_out = 2
+[   13.631005] RTL871X: 
+[   13.631005] usb_endpoint_descriptor(2):
+[   13.637175] RTL871X: bLength=7
+[   13.640265] RTL871X: bDescriptorType=5
+[   13.644096] RTL871X: bEndpointAddress=3
+[   13.647979] RTL871X: wMaxPacketSize=512
+[   13.651835] RTL871X: bInterval=0
+[   13.655111] RTL871X: RT_usb_endpoint_is_bulk_out = 3
+[   13.660172] RTL871X: nr_endpoint=3, in_num=1, out_num=2
+[   13.660172] 
+[   13.666926] RTL871X: USB_SPEED_HIGH
+[   13.670514] RTL871X: CHIP TYPE: RTL8188E
+[   13.674589] RTL871X: register rtw_netdev_ops to netdev_ops
+[   13.680154] RTL871X: rtw_wdev_alloc(padapter=ffffff8004866000)
+[   13.687085] RTL871X: Chip Version Info: CHIP_8188E_Normal_Chip_TSMC_D_CUT_1T1R_RomVer(0)
+[   13.695354] RTL871X: RF_Type is 3!!
+[   13.698932] RTL871X: _ConfigNormalChipOutEP_8188E OutEpQueueSel(0x05), OutEpNumber(2) 
+[   13.707100] RTL871X: EEPROM type is E-FUSE
+[   13.711259] RTL871X: ====> _ReadAdapterInfo8188EU
+[   13.716287] RTL871X: Boot from EFUSE, Autoload OK !
+[   13.724295] RTL871X: SetHwReg8188EU: bMacPwrCtrlOn=1
+[   13.729608] bFWReady == _FALSE call reset 8051...
+[   13.735836] RTL871X: =====> _8051Reset88E(): 8051 reset success .
+[   13.756757] RTL871X: efuse_read_phymap_from_txpktbuf bcnhead:0
+[   13.763566] RTL871X: efuse_read_phymap_from_txpktbuf len:111, lenbak:111, aaa:111, aaabak:111
+[   13.779783] RTL871X: efuse_read_phymap_from_txpktbuf read count:109
+[   13.786660] RTL871X: EEPROM ID=0x8129
+[   13.790589] RTL871X: VID = 0x0BDA, PID = 0x0179
+[   13.795339] RTL871X: Customer ID: 0x00, SubCustomer ID: 0xCD
+[   13.801348] RTL871X: Hal_ReadPowerSavingMode88E...bHWPwrPindetect(0)-bHWPowerdown(0) ,bSupportRemoteWakeup(1)
+[   13.811582] RTL871X: ### PS params=>  power_mgnt(1),usbss_enable(0) ###
+[   13.818312] RTL871X: ======= Path 0, Channel 1 =======
+[   13.823521] RTL871X: Index24G_CCK_Base[0][1] = 0x30
+[   13.828467] RTL871X: Index24G_BW40_Base[0][1] = 0x33
+[   13.833494] RTL871X: ======= Path 0, Channel 2 =======
+[   13.838675] RTL871X: Index24G_CCK_Base[0][2] = 0x30
+[   13.843788] RTL871X: Index24G_BW40_Base[0][2] = 0x33
+[   13.848930] RTL871X: ======= Path 0, Channel 3 =======
+[   13.854254] RTL871X: Index24G_CCK_Base[0][3] = 0x30
+[   13.859306] RTL871X: Index24G_BW40_Base[0][3] = 0x33
+[   13.864429] RTL871X: ======= Path 0, Channel 4 =======
+[   13.869737] RTL871X: Index24G_CCK_Base[0][4] = 0x30
+[   13.874828] RTL871X: Index24G_BW40_Base[0][4] = 0x33
+[   13.879934] RTL871X: ======= Path 0, Channel 5 =======
+[   13.885228] RTL871X: Index24G_CCK_Base[0][5] = 0x30
+[   13.890275] RTL871X: Index24G_BW40_Base[0][5] = 0x33
+[   13.895450] RTL871X: ======= Path 0, Channel 6 =======
+[   13.900890] RTL871X: Index24G_CCK_Base[0][6] = 0x30
+[   13.906011] RTL871X: Index24G_BW40_Base[0][6] = 0x33
+[   13.911069] RTL871X: ======= Path 0, Channel 7 =======
+[   13.916445] RTL871X: Index24G_CCK_Base[0][7] = 0x30
+[   13.921350] RTL871X: Index24G_BW40_Base[0][7] = 0x33
+[   13.926515] RTL871X: ======= Path 0, Channel 8 =======
+[   13.931675] RTL871X: Index24G_CCK_Base[0][8] = 0x30
+[   13.936758] RTL871X: Index24G_BW40_Base[0][8] = 0x33
+[   13.941764] RTL871X: ======= Path 0, Channel 9 =======
+[   13.946947] RTL871X: Index24G_CCK_Base[0][9] = 0x2e
+[   13.951838] RTL871X: Index24G_BW40_Base[0][9] = 0x31
+[   13.956858] RTL871X: ======= Path 0, Channel 10 =======
+[   13.962103] RTL871X: Index24G_CCK_Base[0][10] = 0x2e
+[   13.967135] RTL871X: Index24G_BW40_Base[0][10] = 0x31
+[   13.972226] RTL871X: ======= Path 0, Channel 11 =======
+[   13.977514] RTL871X: Index24G_CCK_Base[0][11] = 0x2e
+[   13.982503] RTL871X: Index24G_BW40_Base[0][11] = 0x31
+[   13.987604] RTL871X: ======= Path 0, Channel 12 =======
+[   13.992897] RTL871X: Index24G_CCK_Base[0][12] = 0x2e
+[   13.997882] RTL871X: Index24G_BW40_Base[0][12] = 0x31
+[   14.003083] RTL871X: ======= Path 0, Channel 13 =======
+[   14.008353] RTL871X: Index24G_CCK_Base[0][13] = 0x2e
+[   14.013506] RTL871X: Index24G_BW40_Base[0][13] = 0x31
+[   14.018615] RTL871X: ======= Path 0, Channel 14 =======
+[   14.024070] RTL871X: Index24G_CCK_Base[0][14] = 0x2e
+[   14.029060] RTL871X: Index24G_BW40_Base[0][14] = 0x31
+[   14.034319] RTL871X: ======= TxCount 0 =======
+[   14.039039] RTL871X: CCK_24G_Diff[0][0]= 0
+[   14.043367] RTL871X: OFDM_24G_Diff[0][0]= 0
+[   14.047673] RTL871X: BW20_24G_Diff[0][0]= 0
+[   14.051960] RTL871X: BW40_24G_Diff[0][0]= 0
+[   14.056340] RTL871X: EEPROMRegulatory = 0x0
+[   14.060554] RTL871X: mlmepriv.ChannelPlan = 0x20
+[   14.065198] RTL871X: CrystalCap: 0x32
+[   14.068867] RTL871X: EEPROM Customer ID: 0x 0
+[   14.073281] RTL871X: EEPROM : AntDivCfg = 0, TRxAntDivType = 3
+[   14.079124] RTL871X: Board Type: 0x 0
+[   14.082793] RTL871X: ThermalMeter = 0x0
+[   14.086775] RTL871X: <==== _ReadAdapterInfo8188EU in 380 ms
+[   14.092502] RTL871X: init_channel_set ChannelPlan ID 20 Chan num:13  
+[   14.106800] RTL871X: NR_PREALLOC_RECV_SKB: 8
+[   14.111192] RTL871X: Enable CONFIG_FIX_NR_BULKIN_BUFFER
+[   14.117026] rtw_alloc_skb_premem, rtk_skb_mem_q len : 15
+[   14.122475] rtw_alloc_skb_premem, rtk_skb_mem_q len : 14
+[   14.127884] rtw_alloc_skb_premem, rtk_skb_mem_q len : 13
+[   14.133223] rtw_alloc_skb_premem, rtk_skb_mem_q len : 12
+[   14.138583] rtw_alloc_skb_premem, rtk_skb_mem_q len : 11
+[   14.144047] rtw_alloc_skb_premem, rtk_skb_mem_q len : 10
+[   14.149368] rtw_alloc_skb_premem, rtk_skb_mem_q len : 9
+[   14.154621] rtw_alloc_skb_premem, rtk_skb_mem_q len : 8
+[   14.160060] RTL871X: pwrctrlpriv.bSupportRemoteWakeup~~~~~~
+[   14.165661] RTL871X: pwrctrlpriv.bSupportRemoteWakeup~~~[1]~~~
+[   14.171506] RTL871X: can't get autopm: 
+[   14.175432] RTL871X: rtw_macaddr_cfg MAC Address  = a0:9d:c1:56:7b:09
+[   14.181884] RTL871X: bDriverStopped:1, bSurpriseRemoved:0, bup:0, hw_init_completed:0
+[   14.189862] RTL871X: register rtw_netdev_ops to netdev_ops
+[   14.195484] RTL871X: register rtw_netdev_if2_ops to netdev_ops
+[   14.201420] RTL871X: rtw_wdev_alloc(padapter=ffffff8004fc8000)
+[   14.208044] RTL871X: Chip Version Info: CHIP_8188E_Normal_Chip_TSMC_D_CUT_1T1R_RomVer(0)
+[   14.216326] RTL871X: RF_Type is 3!!
+[   14.219906] RTL871X: _ConfigNormalChipOutEP_8188E OutEpQueueSel(0x05), OutEpNumber(2) 
+[   14.228127] RTL871X: init_channel_set ChannelPlan ID 20 Chan num:13  
+[   14.243871] RTL871X: NR_PREALLOC_RECV_SKB: 8
+[   14.248319] RTL871X: Enable CONFIG_FIX_NR_BULKIN_BUFFER
+[   14.253695] rtw_alloc_skb_premem, rtk_skb_mem_q len : 7
+[   14.259021] rtw_alloc_skb_premem, rtk_skb_mem_q len : 6
+[   14.264280] rtw_alloc_skb_premem, rtk_skb_mem_q len : 5
+[   14.269516] rtw_alloc_skb_premem, rtk_skb_mem_q len : 4
+[   14.274808] rtw_alloc_skb_premem, rtk_skb_mem_q len : 3
+[   14.280047] rtw_alloc_skb_premem, rtk_skb_mem_q len : 2
+[   14.285299] rtw_alloc_skb_premem, rtk_skb_mem_q len : 1
+[   14.290592] rtw_alloc_skb_premem, rtk_skb_mem_q len : 0
+[   14.296021] RTL871X: rtw_ndev_init(wlan0)
+[   14.303967] RTL871X: _rtw_drv_register_netdev, MAC Address (if1) = a0:9d:c1:56:7b:09
+[   14.312065] RTL871X: rtw_ndev_init(p2p0)
+[   14.324330] RTL871X: _rtw_drv_register_netdev, MAC Address (if2) = a2:9d:c1:56:7b:09
+[   14.333144] usbcore: registered new interface driver rtl8188eu
+[   14.339048] RTL871X: module init ret=0
+[   14.855084] init: Starting service 'cpudvfsscaling'...
+[   14.932303] [dvfs_boost] this client is not running
+[   14.941032] [dvfs_boost] this client is not running
+[   15.124238] Function = Mdrv_CPU_T_sensor_Check_callback, Line = 1810, T_sensor_max_freq:1400000 < [0] current freq:1460000, forcibly_set_target_flag[0]:1
+[   15.138989] Function = Mdrv_CPU_T_sensor_Check_callback, Line = 1817, [Over Temperature Handling Start] changing cpufreq to 1400000
+[   15.152097] Function = Mdrv_CPU_T_sensor_Check_callback, Line = 1819, [Over Temperature Handling Start] changing cpufreq OK!!
+[   15.347204] init: Service 'loadwifi' (pid 2065) exited with status 0
+[   15.588260] init: Starting service 'startSuppl'...
+[   15.767874] RTL871X: +871x_drv - if2_open, bup=0
+[   15.773233] RTL871X: +871x_drv - drv_open, bup=0
+[   15.778983] RTL871X: Set RF Chip ID to RF_6052 and RF type to 1T1R.
+[   15.786104] RTL871X: rtl8188e_FirmwareDownload fw:NIC, size: 13904
+[   15.792338] RTL871X: rtl8188e_FirmwareDownload: fw_ver=b fw_subver=0001 sig=0x88e1, Month=11, Date=27, Hour=30, Minute=36
+[   15.831387] RTL871X: polling_fwdl_chksum: Checksum report OK! (1, 0ms), REG_MCUFWDL:0x00030005
+[   15.841043] RTL871X: =====> _8051Reset88E(): 8051 reset success .
+[   15.847500] RTL871X: _FWFreeToGo: Polling FW ready OK! (1, 10ms), REG_MCUFWDL:0x000300c6
+[   15.855714] RTL871X: FWDL success. write_fw:1, 50ms
+[   16.153368] ==> rtl8188e_iol_efuse_patch 
+[   16.173168] Function = Mdrv_CPU_T_sensor_Check_callback, Line = 1810, T_sensor_max_freq:1400000 < [0] current freq:1460000, forcibly_set_target_flag[0]:1
+[   16.188203] Function = Mdrv_CPU_T_sensor_Check_callback, Line = 1817, [Over Temperature Handling Start] changing cpufreq to 1400000
+[   16.206926] Function = Mdrv_CPU_T_sensor_Check_callback, Line = 1819, [Over Temperature Handling Start] changing cpufreq OK!!
+[   16.272907] RTL871X: pDM_Odm TxPowerTrackControl = 1
+[   16.524117] RTL871X: rtl8188eu_hal_init in 750ms
+[   16.529406] RTL871X: hw_var_set_opmode()-4042 mode = 2
+[   16.539771] RTL871X: MAC Address = a0:9d:c1:56:7b:09
+[   16.545263] RTL871X: rtw_cfg80211_init_wiphy:rf_type=3
+[   16.550634] RTL871X: +871x_drv - if2_open, bup=0
+[   16.555505] RTL871X:  rtw_hal_inirp_init HalFunc.inirp_init is NULL!!!
+[   16.562234] RTL871X: rtw_cfg80211_init_wiphy:rf_type=3
+[   16.567574] RTL871X: -871x_drv - if2_open, bup=1
+[   16.572306] RTL871X: -871x_drv - drv_open, bup=1
+[   16.577120] RTL871X: -871x_drv - if2_open, bup=1
+[   16.582105] IPv6: ADDRCONF(NETDEV_UP): p2p0: link is not ready
+[   16.588204] RTL871X: cfg80211_rtw_set_power_mgmt(p2p0) enabled:1, timeout:-1
+[   16.653310] RTL871X: cfg80211_rtw_flush_pmksa(p2p0)
+[   16.753604] RTL871X: +871x_drv - drv_open, bup=1
+[   16.758412] RTL871X: -871x_drv - drv_open, bup=1
+[   16.763542] IPv6: ADDRCONF(NETDEV_UP): wlan0: link is not ready
+[   16.769635] RTL871X: cfg80211_rtw_set_power_mgmt(wlan0) enabled:1, timeout:-1
+[   16.833300] RTL871X: cfg80211_rtw_flush_pmksa(wlan0)
+[   17.016916] RTL871X: rtw_android_priv_cmd: Android private cmd "BTCOEXSCAN-STOP" on wlan0
+[   17.034226] RTL871X: rtw_android_priv_cmd: Android private cmd "RXFILTER-STOP" on wlan0
+[   17.046147] RTL871X: rtw_android_priv_cmd: Android private cmd "RXFILTER-ADD 3" on wlan0
+[   17.055782] RTL871X: rtw_android_priv_cmd: Android private cmd "RXFILTER-START" on wlan0
+[   17.065130] RTL871X: rtw_android_priv_cmd: Android private cmd "RXFILTER-STOP" on wlan0
+[   17.076092] RTL871X: rtw_android_priv_cmd: Android private cmd "RXFILTER-REMOVE 2" on wlan0
+[   17.088675] RTL871X: rtw_android_priv_cmd: Android private cmd "RXFILTER-START" on wlan0
+[   17.116274] RTL871X: cfg80211_rtw_scan(wlan0)
+[   17.122020] RTL871X: SetHwReg8188E:(HW_VAR_CHECK_TXBUF)TXBUF Empty(1) in 0 ms
+[   17.129969] RTL871X: rtw_android_priv_cmd: Android private cmd "SETSUSPENDMODE 0" on wlan0
+[   17.138576] RTL871X: Unknown PRIVATE command SETSUSPENDMODE 0 - ignored
+[   17.223502] Function = Mdrv_CPU_T_sensor_Check_callback, Line = 1810, T_sensor_max_freq:1400000 < [0] current freq:1460000, forcibly_set_target_flag[0]:1
+[   17.239766] Function = Mdrv_CPU_T_sensor_Check_callback, Line = 1817, [Over Temperature Handling Start] changing cpufreq to 1400000
+[   17.256193] Function = Mdrv_CPU_T_sensor_Check_callback, Line = 1819, [Over Temperature Handling Start] changing cpufreq OK!!
+[   18.273146] Function = Mdrv_CPU_T_sensor_Check_callback, Line = 1810, T_sensor_max_freq:1400000 < [0] current freq:1460000, forcibly_set_target_flag[0]:1
+[   18.288493] Function = Mdrv_CPU_T_sensor_Check_callback, Line = 1817, [Over Temperature Handling Start] changing cpufreq to 1400000
+[   18.301944] Function = Mdrv_CPU_T_sensor_Check_callback, Line = 1819, [Over Temperature Handling Start] changing cpufreq OK!!
+[   18.467441] RTL871X: survey done event(46) band:0 for wlan0
+[   18.473268] RTL871X: rtw_indicate_scan_done(wlan0)
+[   18.556444] RTL871X: =>cfg80211_rtw_connect(wlan0)
+[   18.561330] RTL871X: privacy=1, key=          (null), key_len=0, key_idx=0
+[   18.568457] RTL871X: ssid=TP-LINK_D5B6, len=12
+[   18.573109] RTL871X: bssid=f4:83:cd:a9:d5:b6
+[   18.578325] RTL871X: rtw_cfg80211_set_wpa_version, wpa_version=2
+[   18.584679] RTL871X: rtw_cfg80211_set_auth_type, nl80211_auth_type=0
+[   18.591271] RTL871X: cfg80211_rtw_connect, ie_len=28
+[   18.596737] RTL871X: set wpa_ie(length:28):
+[   18.601157] RTL871X: 0x30 0x14 0x01 0x00 0x00 0x0f 0xac 0x02 
+[   18.606966] RTL871X: 0x01 0x00 0x00 0x0f 0xac 0x04 0x01 0x00 
+[   18.612815] RTL871X: 0x00 0x0f 0xac 0x02 0x00 0x00 0x7f 0x04 
+[   18.618751] RTL871X: 0x00 0x00 0x0a 0x02 0x00 0x00 0x00 0x00 
+[   18.624593] RTL871X: got wpa2_ie, wpa2_ielen:20
+[   18.629540] RTL871X: SetHwReg8188EU, 2964, RCR= 700060ca 
+[   18.635117] RTL871X: rtw_cfg80211_set_cipher, ucast=1, cipher=0xfac04
+[   18.641908] RTL871X: rtw_cfg80211_set_cipher, ucast=0, cipher=0xfac02
+[   18.648909] RTL871X: rtw_cfg80211_set_key_mgt, key_mgt=0xfac02
+[   18.654912] RTL871X: rtw_set_802_11_connect(wlan0)  fw_state=0x00000008
+[   18.661560] RTL871X: [by_bssid:1][assoc_ssid:TP-LINK_D5B6][to_roam:0] new candidate: TP-LINK_D5B6(f4:83:cd:a9:d5:b6, ch1) rssi:-64
+[   18.673341] RTL871X: rtw_select_and_join_from_scanned_queue: candidate: TP-LINK_D5B6(f4:83:cd:a9:d5:b6, ch:1)
+[   18.683285] RTL871X: [HT] Support STBC = 0x01
+[   18.687650] RTL871X: declare supporting RX STBC
+[   18.692187] RTL871X: link to Ralink AP
+[   18.696039] RTL871X: set ssid:dot11AuthAlgrthm=2, dot11PrivacyAlgrthm=4, dot118021XGrpPrivacy=2
+[   18.696067] RTL871X: set HT ch/bw before connected
+[   18.696072] RTL871X: start_join_set_ch_bw: ch=1, bwmode=1, ch_offset=1
+[   18.716468] RTL871X: <=cfg80211_rtw_connect, ret 0
+[   18.716496] RTL871X: OnAction_back
+[   18.717303] RTL871X: OnAction_back
+[   18.798164] RTL871X: link to Ralink AP
+[   18.801951] RTL871X: start auth
+[   18.805112] RTL871X: issue_auth
+[   18.813215] RTL871X: OnAuthClient
+[   18.816655] RTL871X: auth success, start assoc
+[   18.821160] RTL871X: network.SupportedRates[0]=82
+[   18.825903] RTL871X: network.SupportedRates[1]=84
+[   18.830654] RTL871X: network.SupportedRates[2]=8B
+[   18.835391] RTL871X: network.SupportedRates[3]=96
+[   18.840147] RTL871X: network.SupportedRates[4]=12
+[   18.844891] RTL871X: network.SupportedRates[5]=24
+[   18.849662] RTL871X: network.SupportedRates[6]=48
+[   18.854400] RTL871X: network.SupportedRates[7]=6C
+[   18.859109] RTL871X: network.SupportedRates[8]=0C
+[   18.863883] RTL871X: network.SupportedRates[9]=18
+[   18.868634] RTL871X: network.SupportedRates[10]=30
+[   18.873451] RTL871X: network.SupportedRates[11]=60
+[   18.878268] RTL871X: bssrate_len = 12
+[   18.905311] RTL871X: OnAssocRsp
+[   18.908502] RTL871X: report_join_res(4)
+[   18.912377] RTL871X: rtw_joinbss_update_network
+[   18.916979] RTL871X: +rtw_update_ht_cap()
+[   18.921023] RTL871X: rtw_alloc_macid = 0
+[   18.924955] RTL871X: rtw_joinbss_update_stainfo
+[   18.929514] RTL871X: ### Set STA_(0) info
+[   18.933567] RTL871X: rtw_cfg80211_indicate_connect(wlan0)
+[   18.938997] RTL871X: pwdev->sme_state(b)=1
+[   18.943125] RTL871X: pwdev->sme_state(a)=1
+[   18.947259] RTL871X: assoc success
+[   18.950839] RTL871X: HW_VAR_BASIC_RATE: 0x15f -> 0x15f -> 0x15f
+[   18.956890] IPv6: ADDRCONF(NETDEV_CHANGE): wlan0: link becomes ready
+[   18.964207] RTL871X: WMM(0): 0, a42b
+[   18.970825] RTL871X: WMM(1): 0, a44f
+[   18.974794] RTL871X: WMM(2): 0, 5e4322
+[   18.978852] RTL871X: WMM(3): 0, 2f3222
+[   18.982812] RTL871X: wmm_para_seq(0): 0
+[   18.986778] RTL871X: wmm_para_seq(1): 1
+[   18.990647] RTL871X: wmm_para_seq(2): 2
+[   18.994710] RTL871X: wmm_para_seq(3): 3
+[   18.998604] RTL871X: HTOnAssocRsp
+[   19.002537] RTL871X: UpdateHalRAMask8188E => mac_id:0, networkType:0x0b, mask:0x000fffff
+[   19.002537]   ==> rssi_level:0, rate_bitmap:0x000ff015
+[   19.016317] RTL871X: recv eapol packet
+[   19.021686] RTL871X: send eapol packet
+[   19.022906] RTL871X: ### MacID(1),Set Max Tx RPT MID(2)
+[   19.030847] RTL871X: ### rtl8188e_set_FwMediaStatus_cmd: MStatus=1 MACID=0 
+[   19.039580] RTL871X: SetHwReg8188E(wlan0): [HW_VAR_MACID_WAKEUP] macid=0, org reg_0x48c=0x00000000
+[   19.055921] RTL871X: =>mlmeext_joinbss_event_callback
+[   19.323137] Function = Mdrv_CPU_T_sensor_Check_callback, Line = 1810, T_sensor_max_freq:1400000 < [0] current freq:1460000, forcibly_set_target_flag[0]:1
+[   19.337851] Function = Mdrv_CPU_T_sensor_Check_callback, Line = 1817, [Over Temperature Handling Start] changing cpufreq to 1400000
+[   19.351192] Function = Mdrv_CPU_T_sensor_Check_callback, Line = 1819, [Over Temperature Handling Start] changing cpufreq OK!!
+[   19.958136] init: Service 'cpudvfsscaling' (pid 2458) exited with status 0
+[   20.010679] RTL871X: recv eapol packet
+[   20.014918] RTL871X: send eapol packet
+[   20.032175] RTL871X: recv eapol packet
+[   20.039253] RTL871X: send eapol packet
+[   20.043365] RTL871X: cfg80211_rtw_add_key(wlan0) adding key for f4:83:cd:a9:d5:b6
+[   20.052157] RTL871X: cipher=0xfac04
+[   20.055868] RTL871X: key_len=0x10
+[   20.059455] RTL871X: seq_len=0x6
+[   20.062948] RTL871X: key_index=0
+[   20.066531] RTL871X: pairwise=1
+[   20.069905] RTL871X: rtw_cfg80211_set_encryption
+[   20.074638] RTL871X: rtw_cfg80211_set_encryption, : param->u.crypt.set_tx ==1 
+[   20.082288] RTL871X:  ~~~~set sta key:unicastkey
+[   20.087049] RTL871X: rtw_cfg80211_set_encryption, ret=0
+[   20.087058] RTL871X: set pairwise key camid:4, addr:f4:83:cd:a9:d5:b6, kid:0, type:AES
+[   20.100893] RTL871X: cfg80211_rtw_set_default_key(wlan0) key_index=0, unicast=1, multicast=0.
+[   20.110447] RTL871X: cfg80211_rtw_add_key(wlan0) adding key for           (null)
+[   20.118551] RTL871X: cipher=0xfac02
+[   20.122053] RTL871X: key_len=0x20
+[   20.125404] RTL871X: seq_len=0x6
+[   20.128848] RTL871X: key_index=2
+[   20.132256] RTL871X: pairwise=0
+[   20.135596] RTL871X: rtw_cfg80211_set_encryption
+[   20.140226] RTL871X:  ~~~~set sta key:groupkey
+[   20.144737] RTL871X: ==> rtw_set_key algorithm(2),keyid(2),key_mask(0)
+[   20.151719] RTL871X: rtw_cfg80211_set_encryption, ret=0
+[   20.152876] RTL871X: set group key camid:5, addr:f4:83:cd:a9:d5:b6, kid:2, type:TKIP
+[   20.153104] RTL871X: SetHwReg8188EU, 2960, RCR= 700060ce 
+[   20.171751] RTL871X: cfg80211_rtw_change_station(wlan0)
+[   20.263223] RTL871X: OnAction_back
+[   20.266676] RTL871X: OnAction_back, action=0
+[   20.270987] RTL871X: issue_action_ba_wait_ack, category=3, action=1, status=0
+[   20.284014] RTL871X: issue_addba_rsp_wait_ack(wlan0) ra=f4:83:cd:a9:d5:b6 tid=0, acked, 1/3 in 20 ms
+[   20.297558] RTL871X: rtw_android_priv_cmd: Android private cmd "BTCOEXMODE 1" on wlan0
+[   20.306448] RTL871X: rtw_android_priv_cmd: Android private cmd "SETSUSPENDMODE 0" on wlan0
+[   20.314988] RTL871X: Unknown PRIVATE command SETSUSPENDMODE 0 - ignored
+[   20.322480] RTL871X: cfg80211_rtw_set_power_mgmt(wlan0) enabled:0, timeout:-1
+[   20.378479] RTL871X: cfg80211_rtw_set_power_mgmt(wlan0) enabled:1, timeout:-1
+[   20.386395] RTL871X: rtw_android_priv_cmd: Android private cmd "BTCOEXMODE 2" on wlan0
+[   20.665936] [4294687606][MAD_ALSA][000996]     6Target sample rate is 48000
+[   20.673041] [4294687616][MAD_ALSA][001091]     6Target channel mode is 2
+[   20.679838] [4294687616][MAD_ALSA][000559]     6Initiate MStar PCM Playback1 engine
+[   20.688039] [4294687626][MAD_ALSA][001036]     6Wake up Playback Monitor 0
+[   20.756510] RTL871X: UpdateHalRAMask8188E => mac_id:0, networkType:0x0b, mask:0x000fffff
+[   20.756510]   ==> rssi_level:2, rate_bitmap:0x000ff000
+[   23.074523] Function = free_buffer_list, Line = 2047, list is empty
+[   23.219590] Function = free_buffer_list, Line = 2047, list is empty
+[   23.339435] Function = free_buffer_list, Line = 2047, list is empty
+[   23.637968] init: Service 'bootanim' (pid 1555) exited with status 0
+[   23.644828] init: Starting service 'disabletv'...
+[   23.675269] init: Service 'disabletv' (pid 2775) exited with status 0
+[   24.767883] LUT set  ffee ddcc 
+[   24.813319]  [Mapi_Cfd_ColorFormatDriver_Control] Analog source
+[   26.346138] LUT set  ffee ddcc 
+[   27.298627] nf_conntrack: automatic helper assignment is deprecated and it will be removed soon. Use the iptables CT target to attach helpers instead.
+[   33.354469] [4294700296][MAD_ALSA][001036]     6Wake up Playback Monitor 0
+[   46.633385] Function = Mdrv_CPU_T_sensor_Check_callback, Line = 1836, [Over Temperature Handling End] changing cpufreq to 1460000
+[   46.655702] Function = Mdrv_CPU_T_sensor_Check_callback, Line = 1838, [Over Temperature Handling End] changing cpufreq OK!!
+[   46.753415] RTL871X: SetHwReg8188E(wlan0): [HW_VAR_MACID_WAKEUP] macid=0, org reg_0x48c=0x00000000
+[   84.753422] RTL871X: SetHwReg8188E(wlan0): [HW_VAR_MACID_WAKEUP] macid=0, org reg_0x48c=0x00000000
+[  100.753211] RTL871X: SetHwReg8188E(wlan0): [HW_VAR_MACID_WAKEUP] macid=0, org reg_0x48c=0x00000000
+[  116.753237] RTL871X: SetHwReg8188E(wlan0): [HW_VAR_MACID_WAKEUP] macid=0, org reg_0x48c=0x00000000
+
+shell@almond:/ $ 
+shell@almond:/ $ 
+shell@almond:/ $ [  132.753242] RTL871X: SetHwReg8188E(wlan0): [HW_VAR_MACID_WAKEUP] macid=0, org reg_0x48c=0x00000000
+[  148.753219] RTL871X: SetHwReg8188E(wlan0): [HW_VAR_MACID_WAKEUP] macid=0, org reg_0x48c=0x00000000
+[  164.753255] RTL871X: SetHwReg8188E(wlan0): [HW_VAR_MACID_WAKEUP] macid=0, org reg_0x48c=0x00000000
+[  180.753242] RTL871X: SetHwReg8188E(wlan0): [HW_VAR_MACID_WAKEUP] macid=0, org reg_0x48c=0x00000000
+[  196.753220] RTL871X: SetHwReg8188E(wlan0): [HW_VAR_MACID_WAKEUP] macid=0, org reg_0x48c=0x00000000
+[  212.753241] RTL871X: SetHwReg8188E(wlan0): [HW_VAR_MACID_WAKEUP] macid=0, org reg_0x48c=0x00000000
+[  228.753266] RTL871X: SetHwReg8188E(wlan0): [HW_VAR_MACID_WAKEUP] macid=0, org reg_0x48c=0x00000000
+[  244.753381] RTL871X: SetHwReg8188E(wlan0): [HW_VAR_MACID_WAKEUP] macid=0, org reg_0x48c=0x00000000
+[  260.753253] RTL871X: SetHwReg8188E(wlan0): [HW_VAR_MACID_WAKEUP] macid=0, org reg_0x48c=0x00000000
+[  276.753216] RTL871X: SetHwReg8188E(wlan0): [HW_VAR_MACID_WAKEUP] macid=0, org reg_0x48c=0x00000000
+[  292.753212] RTL871X: SetHwReg8188E(wlan0): [HW_VAR_MACID_WAKEUP] macid=0, org reg_0x48c=0x00000000
+[  308.753242] RTL871X: SetHwReg8188E(wlan0): [HW_VAR_MACID_WAKEUP] macid=0, org reg_0x48c=0x00000000
+[  324.753209] RTL871X: SetHwReg8188E(wlan0): [HW_VAR_MACID_WAKEUP] macid=0, org reg_0x48c=0x00000000
+[  340.753243] RTL871X: SetHwReg8188E(wlan0): [HW_VAR_MACID_WAKEUP] macid=0, org reg_0x48c=0x00000000
+[  356.753298] RTL871X: SetHwReg8188E(wlan0): [HW_VAR_MACID_WAKEUP] macid=0, org reg_0x48c=0x00000000
+[  372.753234] RTL871X: SetHwReg8188E(wlan0): [HW_VAR_MACID_WAKEUP] macid=0, org reg_0x48c=0x00000000
+[  388.753244] RTL871X: SetHwReg8188E(wlan0): [HW_VAR_MACID_WAKEUP] macid=0, org reg_0x48c=0x00000000
+[  404.753214] RTL871X: SetHwReg8188E(wlan0): [HW_VAR_MACID_WAKEUP] macid=0, org reg_0x48c=0x00000000
+[  420.753377] RTL871X: SetHwReg8188E(wlan0): [HW_VAR_MACID_WAKEUP] macid=0, org reg_0x48c=0x00000000
+[  436.753230] RTL871X: SetHwReg8188E(wlan0): [HW_VAR_MACID_WAKEUP] macid=0, org reg_0x48c=0x00000000
+[  452.753287] RTL871X: SetHwReg8188E(wlan0): [HW_VAR_MACID_WAKEUP] macid=0, org reg_0x48c=0x00000000
+[  468.753250] RTL871X: SetHwReg8188E(wlan0): [HW_VAR_MACID_WAKEUP] macid=0, org reg_0x48c=0x00000000
+[  484.753247] RTL871X: SetHwReg8188E(wlan0): [HW_VAR_MACID_WAKEUP] macid=0, org reg_0x48c=0x00000000
+[  500.753210] RTL871X: SetHwReg8188E(wlan0): [HW_VAR_MACID_WAKEUP] macid=0, org reg_0x48c=0x00000000
+[  516.753251] RTL871X: SetHwReg8188E(wlan0): [HW_VAR_MACID_WAKEUP] macid=0, org reg_0x48c=0x00000000
+[  532.753309] RTL871X: SetHwReg8188E(wlan0): [HW_VAR_MACID_WAKEUP] macid=0, org reg_0x48c=0x00000000
+[  548.753210] RTL871X: SetHwReg8188E(wlan0): [HW_VAR_MACID_WAKEUP] macid=0, org reg_0x48c=0x00000000
+[  564.753213] RTL871X: SetHwReg8188E(wlan0): [HW_VAR_MACID_WAKEUP] macid=0, org reg_0x48c=0x00000000
+[  580.753248] RTL871X: SetHwReg8188E(wlan0): [HW_VAR_MACID_WAKEUP] macid=0, org reg_0x48c=0x00000000
+[  596.753383] RTL871X: SetHwReg8188E(wlan0): [HW_VAR_MACID_WAKEUP] macid=0, org reg_0x48c=0x00000000
+[  612.753249] RTL871X: SetHwReg8188E(wlan0): [HW_VAR_MACID_WAKEUP] macid=0, org reg_0x48c=0x00000000
+[  628.753243] RTL871X: SetHwReg8188E(wlan0): [HW_VAR_MACID_WAKEUP] macid=0, org reg_0x48c=0x00000000
+[  644.753211] RTL871X: SetHwReg8188E(wlan0): [HW_VAR_MACID_WAKEUP] macid=0, org reg_0x48c=0x00000000
+[  660.753238] RTL871X: SetHwReg8188E(wlan0): [HW_VAR_MACID_WAKEUP] macid=0, org reg_0x48c=0x00000000
+[  676.753236] RTL871X: SetHwReg8188E(wlan0): [HW_VAR_MACID_WAKEUP] macid=0, org reg_0x48c=0x00000000
+[  692.753277] RTL871X: SetHwReg8188E(wlan0): [HW_VAR_MACID_WAKEUP] macid=0, org reg_0x48c=0x00000000
+[  708.753392] RTL871X: SetHwReg8188E(wlan0): [HW_VAR_MACID_WAKEUP] macid=0, org reg_0x48c=0x00000000
+[  721.638125] SAR5 eMMC WARN.
